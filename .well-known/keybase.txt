@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mindpower
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bestchinavpn.org
+  * I am mindpower (https://keybase.io/mindpower) on keybase.
+  * I have a public key ASAka2oXfG7doE1xm8YTFOPbSWETsuBEd8kdCA_En1PEYgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012070ae5c86f425098b53df54c2fccc7c317e85ed4e3600d7ad1701df5e98b4b7f90a",
+      "host": "keybase.io",
+      "kid": "0120246b6a177c6edda04d719bc61314e3db496113b2e04477c91d080fc49f53c4620a",
+      "uid": "c96ffe8b67e02051bd5e7d0dc54aed19",
+      "username": "mindpower"
+    },
+    "merkle_root": {
+      "ctime": 1575735838,
+      "hash": "f56e395f6af68145ed2bc8610f1116128efe645297ad86b16a684cfd56bf54e3aaab6c081f2e4554249fb8fa1e40d8cf71597adcdb439a865a186707beb10cb7",
+      "hash_meta": "2610e411673620eede9c630b3481ee03124e1c6bdeb1b9b2a883ad5807465add",
+      "seqno": 12690838
+    },
+    "service": {
+      "entropy": "CTcgutF19ilJwe1YdhYobVVD",
+      "hostname": "bestchinavpn.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1575735867,
+  "expire_in": 504576000,
+  "prev": "c27760a1e9051a122e06f9756daa25c81067f42c5de24e0365592a5fb971897d",
+  "seqno": 49,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJGtqF3xu3aBNcZvGExTj20lhE7LgRHfJHQgPxJ9TxGIKp3BheWxvYWTESpcCMcQgwndgoekFGhIuBvl1baolyBBn9Cxd4k4DZVkqX7lxiX3EIFKkdzc4CuqatnRrHo/nNOFrCBeeZaddOZk8atSouMzJAgHCo3NpZ8RA9qRuWzRkvV8sr5p5F9e9qIL3XRac9IFlWkA4qlORowfYkwjyMmrYjPByVoN5QaS+O7sRwatOg2/qcxbQ20RBDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJWzFAU0KzfZ3EqpwCwNeFPeTcCAABPte1vwdta60reoo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mindpower
+
+==================================================================
