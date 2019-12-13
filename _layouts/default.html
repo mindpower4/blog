@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %} {% if page.layout == "default" %} {{ site.title }} {% endif %}</title>
+    <title>{% if page.title %}{{ page.title }}{% endif %}{% if page.layout == "default" %} | {{ site.title }} 
+    
+      
+      
+    {% endif %}</title>
 
     {% include meta.html %}
 
