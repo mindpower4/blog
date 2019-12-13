@@ -4,7 +4,6 @@ title: About Us
 permalink: /about-us/
 ---
 
-<div id="main" role="main" class="container">
 <h1>About Us</h1>
 
 Some information about you!
