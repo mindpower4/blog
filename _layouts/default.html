@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %} {% if page.layout == "default" %} {{ site.title }} {% endif %}</title>
 
     {% include meta.html %}
 
@@ -21,7 +21,7 @@
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Reviews</a>
+            <a href="{{ site.baseurl }}/reviews">Reviews</a>
             <a href="{{ site.baseurl }}/about-us">About Us</a>
           </nav>
         </header>
