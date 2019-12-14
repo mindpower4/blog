@@ -8,7 +8,7 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-            <meta property="og:type" content="{% if base.url %}{% raw %}website{% endraw %}{% else %}{% raw %}article{% endraw %}{% endif %}" />
+            <meta property="og:type" content="{% if base.url =="{{ site.url }}" %}{% raw %}website{% endraw %}{% else %}{% raw %}article{% endraw %}{% endif %}" />
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
