@@ -10,7 +10,7 @@ Some information about you!
 
 A place to include any other types of information that you'd like to include about yourself.
 
-### Contact us
+### Contact
 
  <form method="post" action="https://forms.un-static.com/forms/aa7ce520aec859568a82d049eb0f4251a0133408"> 
   <input type="text" name="name" placeholder="Enter your name" required>
