@@ -1,4 +1,8 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="{% unless page.url =="/" %}article{% else %}website{% endunless %}" />
 <meta property="og:title" content="{% unless page.title %}{{ site.title }}{% else %}{{ page.title }}{% endunless %}" />
+<meta property="og:description" content="{% unless page.description %}{{ site.description }}{% else %}{{ page.description }}{% endunless %}" />
+<meta property="og:url" content="{% unless page.url %}{{ site.url }}{% else %}{{ page.url | prepend: site.url }}" />
+<meta property="og:site_name" content="{{ site.og_name }}" />
+<meta property="og:image" content="{% unless page.featured-image %}{{ site.og_image }}{% else %}{{ site.url }}/{{ page.featured-image }}{% endunless %}" />
 
