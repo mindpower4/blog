@@ -4,11 +4,11 @@
     <title>{% if page.title %}{{ page.title }}{% endif %}{% if page.layout == "default" %}{{ site.title }}{% endif %}</title>
 
     
-    {% unless page.description or site.description and site.og_name %}
+        {% if page.description or site.description and site.og_name %}
     
     {% include ogtags.html %}
     
-     {% endunless %}
+     {% endif %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
