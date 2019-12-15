@@ -10,8 +10,9 @@
     <![endif]-->
     
             <meta property="og:type" content="{% if page.url =="/" %}website{% else %}article{% endif %}" />
-<meta property="og:url" content="
-        {% if page.url %}{{ page.url | prepend: site.baseurl }}{% else %}{{ site.url }}{% endif %}" />
+
+    <meta property="og:url" content="
+               {% if page.url %}{{ page.url | prepend: site.url }}{% else %}{{ site.url }}{% endif %}" />
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
