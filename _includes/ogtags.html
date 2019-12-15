@@ -1,2 +1,4 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="{% unless page.url =="/" %}article{% else %}website{% endunless %}" />
+<meta property="og:title" content="{% unless site.title %}{{ page.title }}{% else %}{{ site.title }}{% endunless %}" />
+
