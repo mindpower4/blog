@@ -5,13 +5,9 @@
 
     
     {% if page.description or site.description and site.og_name %}
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="{% elsif page.url =="/" %}website{% else %}article" />
-        <meta property="og:title" content="{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}" />
-        <meta property="og:description" content="{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}" />
-        <meta property="og:url" content="{% elsif page.url %}{{ page.url | prepend: site.url }}{% else %}{{ site.url }}" />
-        <meta property="og:site_name" content="{{ site.og_name }}" />
-        <meta property="og:image" content="{% elsif page.featured-image %}{{ site.url }}/{{ page.featured-image }}{% else %}{{ site.url }}/images/opengraph/main.png" />
+    
+    {% include ogtags.html %}
+    
      {% endif %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
