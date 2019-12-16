@@ -2,13 +2,14 @@
 <html lang="en-US">
   <head>
     <title>{% if page.title %}{{ page.title }}{% endif %}{% if page.layout == "default" %}{{ site.title }}{% endif %}</title>
-
     
-        {% if page.description or site.description and site.og_name %}
-    
+    {% if page.description or site.description and site.og_name %}
     {% include ogtags.html %}
     
-     {% endif %}
+    {% elsif page.featured-image or site.og_site_image %}
+    <meta property="og:image" content="{% unless page.featured-image %}{{ site.og_site_image }}{% else %}{{ site.url }}/{{         
+    page.featured-image }}{% endunless %}" />
+    {% endif %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
