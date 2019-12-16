@@ -3,7 +3,7 @@
   <head>
     <title>{% if page.title %}{{ page.title }}{% endif %}{% if page.layout == "default" %}{{ site.title }}{% endif %}</title>
     
-    {% if page.description or site.description and site.og_name %}
+    {% if page.description or site.description and site.og_site_name %}
     {% include ogtags.html %}
     {% endif %}
  
