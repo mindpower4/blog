@@ -2,23 +2,36 @@
 # This file contains configuration flags to customize your site
 #
 
-# Name of your site (displayed in the header)
-name: Andreas
+# Specify Your SEO Title | Pro Tip! - Use Synonyms & 60–70 characters 
 
-# Opengraph Settings - Enter "og_name" to activate your og meta tags
+title: 
 
-og_site_name: og site name here
-og_locale: 
-og_site_image: 
+# Description | Recommended - 110-235 characters
 
-# Short bio or description (displayed in the header)
 description: 
 
-# Title of your site
-title: Discover Top VPNs - Our Recommended Services for Living in China
+
+# Search Engine Indexing | Set "false" to Allow  
+
+noindex: true
+
+# Meta Tags
+
+# Opengraph Settings
+
+# Set "og:site_name" to activate your og meta tags
+og_site_name: 
+# Choose a custom locale or leave empty for default "en_US"
+og_locale: 
+# Image is only displayed if no page.featured-image is set
+og_image:
+
+# Twitter Cards | Insert Image URL to Enable
+
+tw.img: 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/mindpower4/blog/master/images/logo.png
+avatar: https://raw.githubusercontent.com/username/blog/master/images/logo.png
 
 #
 # Flags below are optional
@@ -27,18 +40,17 @@ avatar: https://raw.githubusercontent.com/mindpower4/blog/master/images/logo.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: bestchinavpn@protonmail.com
+  email: 
   facebook:
   flickr:
   github: 
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: bestchinavpn
+  rss: # type anything here for a working RSS icon
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -48,9 +60,9 @@ disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Your website URL (e.g. https://socialvypr.github.io or https://socialvypr.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://bestchinavpn.org
+url: 
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -64,8 +76,8 @@ baseurl: ""
 
 permalink: /:title/
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
+# The release of seovly that you're using
+version: v1.0.0
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
@@ -79,7 +91,7 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: :compressed # You might prefer to use :expanded
 
 # Use the following plug-ins
 gems:
