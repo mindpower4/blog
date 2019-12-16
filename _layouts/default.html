@@ -2,13 +2,13 @@
 <html lang="en-US">
   <head>
     <title>{% if page.title %}{{ page.title }}{% endif %}{% if page.layout == "default" %}{{ site.title }}{% endif %}</title>
-    
+        <link rel="alternate" type="application/rss+xml" title="{{ append: 'Feed' | site.title }}" href="{{ site.baseurl }}/feed.xml" />
+
     {% if page.description or site.description and site.og_site_name %}
     {% include ogtags.html %}
     {% endif %}
  
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ append: 'Feed' | site.title }}" href="{{ site.baseurl }}/feed.xml" />
 
   </head>
 
