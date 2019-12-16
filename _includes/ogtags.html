@@ -5,9 +5,7 @@
 <meta property="og:url" content="{% unless page.url %}{{ site.url }}{% else %}{{ page.url | prepend: site.url }}{% endunless %}" />
 <meta property="og:site_name" content="{{ site.og_site_name }}" />
 
-{% unless site.og_site_image or page.featured-image %}{% endif %}
-{% elsif site.og_site_image %}{{ site.og_site_image }}{% else %}{{ site.url }}/{{         
-    page.featured-image }}{% endunless %}" />
-
-
-
+{% case condition %}
+{% when page.featured-image or site.og_site_image %}
+<meta property="og:image" content="{% unless page.featured-image %}{{ site.og_site_image }}{% else %}{{ site.url }}/{{ page.featured-image }}{% endunless %}" />
+{% endcase %}
