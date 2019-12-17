@@ -20,11 +20,11 @@ noindex: true
 # Opengraph Settings
 
 # Set "og:site_name" to activate your og meta tags
-og_site_name: test
+og_site_name: og test title
 # Choose a custom locale or leave empty for default "en_US"
-og_locale: en
+og_locale: 
 # Image is only displayed if no page.featured-image is set
-og_img: test
+og_img: https://yourimgurl.com/image.png
 
 # Twitter Cards | Insert Image URL to Enable
 
@@ -45,12 +45,12 @@ footer-links:
   facebook:
   flickr:
   github: 
-  instagram: test
-  linkedin: test
+  instagram: 
+  linkedin: 
   pinterest:
   rss: # type anything here for a working RSS icon
   twitter: test
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: # your stackoverflow profile, e.g. "users/33333/jack-norris"
   youtube: # channel/<your_long_string> or user/<user-name>
 
 
@@ -72,19 +72,19 @@ url: https://bestchinavpn.org
 baseurl: ""
 
 #
-# !! You don't need to change any of the configuration flags below !!
+# ! Advanced Settings
 #
 
 permalink: /:title/
 
 # The release of seovly that you're using
-version: v1.0.0
+version: v1.0.1
 
-# Jekyll 3 now only supports Kramdown for Markdown
+# Jekyll Kramdown
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  # Jekyll syntax highlighting
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
