@@ -6,7 +6,7 @@
 <meta property="og:site_name" content="{{ site.og_site-name }}" />
 
 
-{% unless page.og_img or page.featured.image or site.og_img contains 'https://' %}
+{% unless page.og_img or page.featured.image or site.og_img contains 'http://' %}
 
 {% if page.og_img-width and page.og_img-height or site.og_img-width and site.og_img-height %}
 <meta property="og:image:width" content="{% unless page.og_img-width %}{{ site.og_img-width }}{% else %}
