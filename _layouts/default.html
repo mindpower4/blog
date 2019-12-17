@@ -5,14 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-        
-        <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
         {% unless site.noindex =="false" %}<meta name="robots" content="noindex">{% endunless %}
+        <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
         {% if page.description or site.description and site.og_site_name %}
         {% include ogtags.html %}
         {% endif %}
         
-        {% if page.description or site.description and site.tw_img %}
+        {% if page.description or site.description and site.tc_img %}
         {% include twittercards.html %}
         {% endif %}
       
