@@ -12,6 +12,7 @@ description: test
 
 
 # Search Engine Indexing | Set "false" to Allow  
+# Long Term Noindex Will Lead To Nofollow On Links
 
 noindex: true
 
