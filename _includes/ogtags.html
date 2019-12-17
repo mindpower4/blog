@@ -7,7 +7,7 @@
 
 
 
-
+{% unless page.og_img or site.og_img contains 'http://' %}
 {% unless page.og_img-width or page.og_img-height or page.og_img %}
 {% if site.og_img-width and site.og_img-height and site.og_img %}
 
@@ -18,7 +18,7 @@
 
 {% endif %}
 {% endunless %}
-
+{% endunless %}
 
 
 
