@@ -21,7 +21,7 @@ noindex: true
 # Opengraph Settings
 
 # Set "og:site_name" to activate your og meta tags
-og_site_name: og test title
+og_site-name: og test title
 # Choose a custom locale or leave empty for default "en_US"
 og_locale: 
 # Image is only displayed if no page.featured-image is set
