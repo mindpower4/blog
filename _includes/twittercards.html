@@ -1,4 +1,4 @@
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="{% unless site.tc %}summary{% else %}{{ site.tc }}{% endunless %}" />
 <meta name="twitter:description" content="{% unless page.description %}{{ site.description }}{% else %}{{ page.description }}{% endunless %}" />
 <meta name="twitter:title" content="{% unless page.title %}{{ site.title }}{% else %}{{ page.title }}{% endunless %}" />
 <meta name="twitter:image" content="{% unless page.tc_img %}{{ site.tc_img }}{% else %}{{ page.tc_img }}{% endunless %}" />
