@@ -28,7 +28,8 @@ og_img: test
 
 # Twitter Cards | Insert Image URL to Enable
 
-tc_img: test
+tc: summary
+tc_img: https://yourimgurl.com/image.png
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/mindpower4/blog/master/images/logo.png
