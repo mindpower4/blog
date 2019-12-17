@@ -3,7 +3,7 @@
 <meta property="og:title" content="{% unless page.title %}{{ site.title }}{% else %}{{ page.title }}{% endunless %}" />
 <meta property="og:description" content="{% unless page.description %}{{ site.description }}{% else %}{{ page.description }}{% endunless %}" />
 <meta property="og:url" content="{% unless page.url %}{{ site.url }}{% else %}{{ page.url | prepend: site.url }}{% endunless %}" />
-<meta property="og:site_name" content="{{ site.og_site_name }}" />
+<meta property="og:site_name" content="{{ site.og_site-name }}" />
 
 
 {% if page.og_img-width and page.og_img-height or site.og_img-width and site.og_img-height %}
