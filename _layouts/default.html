@@ -7,9 +7,10 @@
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
         {% unless site.noindex =="false" %}<meta name="robots" content="noindex">{% endunless %}
         <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
-        {% if page.description or site.description and site.og_site-name and site.title and site.og_img contains 'https://' and site.og_img-width and site.og_img-height or page.og_img contains 'https://' and page.og_img-width and page.og_img-height %}
+        {% unless site.title == blank or site.description == blank %} 
+        {% if site.og_img contains 'https://' and site.og_img-width and site.og_img-height or page.og_img contains 'https://' and page.og_img-width and page.og_img-height %}
         {% include ogtags.html %}
-        {% endif %}
+        {% endif %}{% endunless %}
         
         {% if page.description or site.description and site.tc_img %}
         {% include twittercards.html %}
