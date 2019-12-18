@@ -2,10 +2,11 @@
 
 layout: page
 title: About
+description: custompagedescriptionaboutmd
 permalink: /about/
-og_img: https://www.jihfd.com
-og_img-width: testvalue
-og_img-height: ughgg
+og_img: https://www.aboutsethgrd.com
+og_img-width: aboutvalue
+og_img-height: aboutvalue
 
 ---
 
