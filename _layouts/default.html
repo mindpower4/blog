@@ -7,7 +7,7 @@
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
         {% unless site.noindex =="false" %}<meta name="robots" content="noindex">{% endunless %}
         <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
-        {% unless site.title == blank or site.description == blank %} 
+        {% unless site.title or site.description == blank %} 
         {% include ogtags.html %}
         {% endunless %}
         {% if page.description or site.description and site.tc_img %}
