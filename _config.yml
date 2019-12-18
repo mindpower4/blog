@@ -25,7 +25,7 @@ og_site-name: og test title
 # Choose a custom locale or leave empty for default "en_US"
 og_locale: 
 # Image is only displayed if no page.featured-image is set
-og_img: mainpageogimg
+og_img: https://mainimage
 og_img-width: mainwidth
 og_img-height: mainheight
 
