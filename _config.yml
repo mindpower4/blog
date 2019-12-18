@@ -21,13 +21,13 @@ noindex: true
 # Opengraph Settings
 
 # Set "og:site-name" to activate your og meta tags
-og_site-name: og test title
+og_site-name: Homepage OG TEST TITLE
 # Choose a custom locale or leave empty for default "en_US"
 og_locale: 
 # Image is only displayed if no page.featured-image is set
-og_img: https://mainimage
-og_img-width: mainwidth
-og_img-height: mainheight
+og_img: https://homepagezafgj.com/pathtoimgurl/hsdjaf.png
+og_img-width: homepagevalue
+og_img-height: homepagevalue
 
 # Twitter Cards | Insert Image URL to Enable
 
