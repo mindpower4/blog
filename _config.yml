@@ -25,8 +25,8 @@ og_site-name: og test title
 # Choose a custom locale or leave empty for default "en_US"
 og_locale: 
 # Image is only displayed if no page.featured-image is set
-og_img: https://www.jihfd.com
-og_img-width: testvalue
+og_img: 
+og_img-width: 
 og_img-height: 
 
 # Twitter Cards | Insert Image URL to Enable
