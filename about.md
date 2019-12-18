@@ -1,10 +1,12 @@
 ---
+
 layout: page
 title: About
 permalink: /about/
 og_img: https://www.jihfd.com
 og_img-width: testvalue
 og_img-height: ughgg
+
 ---
 
 Some information about you!
