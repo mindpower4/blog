@@ -5,7 +5,7 @@
         <meta property="og:url" content="{% unless page.url %}{{ site.url }}{% else %}{{ page.url | prepend: site.url }}{% endunless %}" />
         <meta property="og:site_name" content="{{ site.og_site-name }}" />
 
-{% if site.og_img contains 'https://' and site.og_img-width and site.og_img-height or page.og_img contains 'https://' and page.og_img-width and page.og_img-height %}
+
 
 <meta property="og:image" content="{% unless page.og_img %}{{ site.og_img }}{% else %}{{ page.og_img }}{% endunless %}" />
 <meta property="og:image:secure_url" content="{% unless page.og_img %}{{ site.og_img }}{% else %}{{ page.og_img }}% endunless %}" />
@@ -13,5 +13,3 @@
 " />
 <meta property="og:image:height" content="{% unless page.og_img-height %}{{ site.og_img-height }}{% else %}{{ page.og_img-height }}{% endunless %}
 " />
-
-{% endif %}
