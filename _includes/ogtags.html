@@ -7,17 +7,11 @@
 
 {% if page.og_img contains 'https://' and page.og_img-width and page.og_img-height or site.og_img contains 'https://' and site.og_img-width and site.og_img-height %}
 
-{% unless page.og_img-width and page.og_img-height and page.og_img %}
-        <meta property="og:image" content="{{ site.og_img }}" />
-        <meta property="og:image:secure_url" content="{{ site.og_img }}" />
-        <meta property="og:image:width" content="{{ site.og_img-width }}" />
-        <meta property="og:image:height" content="{{ site.og_img-height }}" />
-{% else %}
-        <meta property="og:image" content="{{ page.og_img }}" />
-        <meta property="og:image:secure_url" content="{{ page.og_img }}" />
-        <meta property="og:image:width" content="{{ page.og_img-width }}" />
-        <meta property="og:image:height" content="{{ page.og_img-height }}" />
-{% endunless %}{% endif %}
 
+        <meta property="og:image" content="{% unless page.og_img-width and page.og_img-height and page.og_img %}{{ site.og_img }}{% else %}{{ page.og_img }}{% endunless %}" />
+        <meta property="og:image:secure_url" content="{% unless page.og_img-width and page.og_img-height and page.og_img %}{{ site.og_img }}{% else %}{{ page.og_img }}{% endunless %}" />
+        <meta property="og:image:width" content="{% unless page.og_img-width and page.og_img-height and page.og_img %}{{ site.og_img-width }}{% else %}{{ page.og_img-width }}{% endunless %}" />
+        <meta property="og:image:height" content="{% unless page.og_img-width and page.og_img-height and page.og_img %}{{ site.og_img-height }}{% else %}{{ page.og_img-height }}{% endunless %}" />
+{% endif %}
 
 
