@@ -8,7 +8,7 @@ title: Discover Top VPNs - Our Recommended Services for Living in China
 
 # Description | Recommended - 110-235 characters
 
-description: homepagedescriptionmain
+description: Homepage Example Description
 
 
 # Search Engine Indexing | Set "false" to Allow  
@@ -21,7 +21,7 @@ noindex: true
 # Opengraph Settings
 
 # Set "og:site-name" to activate your og meta tags
-og_site-name: Homepage OG TEST TITLE
+og_site-name: OpenGraph Example Site Name
 # Choose a custom locale or leave empty for default "en_US"
 og_locale: 
 # Insert the exact dimensions of your image plus the secure path
