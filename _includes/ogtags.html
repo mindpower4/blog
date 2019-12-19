@@ -6,7 +6,7 @@
         <meta property="og:site_name" content="{{ site.og_site-name }}" />
 
 
-{% if page.name == 'Homepage' and site.og_img-width and site.og_img-height and site.og_img contains 'https://' %}
+{% if site.og_img-width and site.og_img-height and site.og_img contains 'https://' and page.is_homepage? == true %}
         <meta property="og:image" content="{{ site.og_img }}" />
         <meta property="og:image:secure_url" content="{{ site.og_img }}" />
         <meta property="og:image:width" content="{{ site.og_img-width }}" />
