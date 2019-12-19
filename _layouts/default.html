@@ -8,10 +8,11 @@
         {% unless site.noindex =="false" %}<meta name="robots" content="noindex">{% endunless %}
         <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
         
+        {% unless site.og_site-name == blank %}
         {% if page.description or site.description and site.title %}
         {% include ogtags.html %}
         {% endif %}
-        
+        {% endunless %}
         
         
         {% if page.description or site.description and site.tc_img %}
