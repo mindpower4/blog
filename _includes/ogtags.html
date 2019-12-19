@@ -4,7 +4,7 @@
         <meta property="og:description" content="{% unless page.description %}{{ site.description }}{% else %}{{ page.description }}{% endunless %}" />
         <meta property="og:url" content="{% unless page.url %}{{ site.url }}{% else %}{{ page.url | prepend: site.url }}{% endunless %}" />
         <meta property="og:site_name" content="{{ site.og_site-name }}" />
-{% if site.og_img-width and site.og_img-height and site.og_img contains 'https://' and site.name == 'Homepage' %}
+{% if site.og_img-width and site.og_img-height and site.og_img contains 'https://' and page.name == 'Homepage' %}
         <meta property="og:image" content="{{ site.og_img }}" />
         <meta property="og:image:secure_url" content="{{ site.og_img }}" />
         <meta property="og:image:width" content="{{ site.og_img-width }}" />
