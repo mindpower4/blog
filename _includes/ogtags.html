@@ -7,7 +7,7 @@
 
 
 
-{% unless page.name != "Homepage" and site.og_img-width and site.og_img-height and site.og_img contains 'https://' %}
+{% unless site.og_img-width and site.og_img-height and site.og_img contains 'https://' %}
         <meta property="og:image" content="{{ site.og_img }}{% else %}{{ page.og_img }}" />
         <meta property="og:image:secure_url" content="{{ site.og_img }}{% else %}{{ page.og_img }}" />
         <meta property="og:image:width" content="{{ site.og_img-width }}{% else %}{{ page.og_img-width }}" />
