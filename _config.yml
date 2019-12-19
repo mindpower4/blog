@@ -2,7 +2,7 @@
 # This file contains configuration flags to customize your site
 #
 
-# Specify Your SEO Title | Pro Tip! - Use Synonyms & 60–70 characters 
+# Specify Your Site Title | Pro Tip! - Use Synonyms & 60–70 characters 
 
 title: Discover Top VPNs - Our Recommended Services for Living in China
 
@@ -16,7 +16,7 @@ description: homepagedescriptionmain
 
 noindex: true
 
-# Meta Tags
+# Meta Tags / Site Title & Description Above Already Set?
 
 # Opengraph Settings
 
