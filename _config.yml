@@ -24,10 +24,11 @@ noindex: true
 og_site-name: Homepage OG TEST TITLE
 # Choose a custom locale or leave empty for default "en_US"
 og_locale: 
-# Image is only displayed if no page.featured-image is set
-og_img: https://homepagezafgj.com/pathtoimgurl/hsdjaf.png
-og_img-width: homepagevalue
-og_img-height: homepagevalue
+# Insert the exact image dimensions plus the secure path
+# Disabled by default, set https url and values to activate
+og_img: https://setvaluestoactivate.com/securepath/example.png
+og_img-width: 
+og_img-height: 
 
 # Twitter Cards | Insert Image URL to Enable
 
