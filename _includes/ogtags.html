@@ -5,14 +5,26 @@
         <meta property="og:url" content="{% unless page.url %}{{ site.url }}{% else %}{{ page.url | prepend: site.url }}{% endunless %}" />
         <meta property="og:site_name" content="{{ site.og_site-name }}" />
 
-{% unless page.name == "Homepage" %}{% if page.og_img-width and page.og_img-height and page.og_img contains 'https://' %}
-        <meta property="og:image" content="{{ page.og_img }}" />
-        <meta property="og:image:secure_url" content="{{ page.og_img }}" />
-        <meta property="og:image:width" content="{{ page.og_img-width }}" />
-        <meta property="og:image:height" content="{{ page.og_img-height }}" />{% endif %}{% endunless %}
+
 
 {% unless page.name != "Homepage" %}{% if site.og_img-width and site.og_img-height and site.og_img contains 'https://' %}
         <meta property="og:image" content="{{ site.og_img }}" />
         <meta property="og:image:secure_url" content="{{ site.og_img }}" />
         <meta property="og:image:width" content="{{ site.og_img-width }}" />
         <meta property="og:image:height" content="{{ site.og_img-height }}" />{% endif %}{% endunless %}
+
+
+{% unless page.name == "Homepage" %}
+
+        <meta property="og:image" content="
+{% if page.og_img-width and page.og_img-height and page.og_img contains 'https://' %}{{ page.og_img }}{% endif %}" />
+        <meta property="og:image:secure_url" content="
+{% if page.og_img-width and page.og_img-height and page.og_img contains 'https://' %}{{ page.og_img }}{% endif %}" />
+        <meta property="og:image:width" content="
+{% if page.og_img-width and page.og_img-height and page.og_img contains 'https://' %}{{ page.og_img-width }}{% endif %}" />
+        <meta property="og:image:height" content="
+{% if page.og_img-width and page.og_img-height and page.og_img contains 'https://' %}{{ page.og_img-height }}{% endif %}" />
+
+{% endunless %}
+
+
