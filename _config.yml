@@ -24,7 +24,7 @@ noindex: true
 og_site-name: Homepage OG TEST TITLE
 # Choose a custom locale or leave empty for default "en_US"
 og_locale: 
-# Insert the exact image dimensions plus the secure path
+# Insert the exact dimensions of your image plus the secure path
 # Disabled by default, set 'https' url and values to activate
 og_img: https://setvaluestoactivate.com/securepath/example.png
 og_img-width: 
