@@ -21,7 +21,7 @@ noindex: true
 # Opengraph Settings
 
 # Set "og:site-name" to activate your og meta tags
-og_site-name: Example OpenGraph Site Name
+og_site-name: OpenGraph Example Site Name
 # Choose a custom locale or leave empty for default "en_US"
 og_locale: 
 # Insert the exact dimensions of your image plus the secure path
