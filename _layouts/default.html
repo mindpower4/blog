@@ -7,7 +7,7 @@
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
         
        
-        {% unless page.id == 'gone' and site.noindex != 'false' %}
+        {% unless site.noindex != 'false' and page.id != 'gone' %}
         <meta name="robots" content="noindex">
         
         {% elsif page.id == 'gone' %}
