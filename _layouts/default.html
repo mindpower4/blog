@@ -4,18 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />{% unless site.noindex =="false" %}{% if page.id != 'gone' %} 
+        <meta name="robots" content="noindex">{% endif %}{% endunless %}{% if page.id == 'gone' %}
+        <meta name="robots" content="noindex,nofollow">{% endif %}
         
-        {% unless site.noindex =="false" or page.id == 'gone' %}
-        <meta name="robots" content="noindex">
-        {% elsif page.id == 'gone' %}
-        <meta name="robots" content="noindex,nofollow">
-        {% endunless %}
-        
-        
-        
-        
-        <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
+        {% unless page.id != 'gone' %}<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />{% endunless %}
         {% unless site.og_site-name == blank %}
         {% if page.description or site.description and site.title %}
         {% include ogtags.html %}
