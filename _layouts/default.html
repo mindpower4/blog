@@ -8,7 +8,7 @@
         <meta name="robots" content="noindex">{% endif %}{% endunless %}{% if page.id == 'gone' %}
         <meta name="robots" content="noindex,nofollow">{% endif %}
         
-        {% unless page.id != 'gone' %}<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />{% endunless %}
+        {% unless page.id == 'gone' %}<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />{% endunless %}
         {% unless site.og_site-name == blank %}
         {% if page.description or site.description and site.title %}
         {% include ogtags.html %}
