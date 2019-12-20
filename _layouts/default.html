@@ -8,10 +8,8 @@
         
         
         
-        {% unless  and site.noindex =="false" %}
-        <meta name="robots" content="noindex">
-        {% elsif page.id == 'gone' %}
-        <meta name="robots" content="noindex,nofollow">
+        {% unless site.noindex == 'false' %}
+        <meta name="robots" content="{% if page.id != 'gone' %}noindex{% elsif page.id == 'gone' %}noindex,nofollow{% endif %}">
         {% endunless %}
         
         
