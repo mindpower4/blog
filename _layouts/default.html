@@ -8,13 +8,13 @@
         {% unless page.id != 'gone' %}<meta name="robots" content="noindex,nofollow">{% endunless %}
         
         
-        {% if page.id != 'gone' %}{% unless site.noindex != 'false' %}
+        {{% unless site.noindex != 'false' and page.id != 'gone' %}
  
         <meta name="robots" content="noindex">
         
        
         
-        {% endunless %}{% endif %}
+        {% endunless %}
         
         
         
