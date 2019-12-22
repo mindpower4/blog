@@ -11,10 +11,11 @@
         {% endunless %}
         
         
+        {% unless page.id == 'gone' %}
         {% if site.noindex != 'false' %}
-        {% include noindex.html %}
-        
+        <meta name="robots" content="noindex">
         {% endif %}
+        {% endunless %}
         
         
         
