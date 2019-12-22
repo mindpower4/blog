@@ -13,7 +13,7 @@
         
         <meta name="robots" content="noindex,nofollow">
         
-        {% elsif page.id != 'gone' and site.noindex %}
+        {% elsif site.noindex and page.id =! 'gone' or site.noindex == blank and page.id =! 'gone' %}
         
         <meta name="robots" content="noindex">{% endif %}
 
