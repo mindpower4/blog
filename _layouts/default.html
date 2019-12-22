@@ -11,9 +11,9 @@
         
         
         
-        {% unless site.noindex != 'true' %}
+        {% if site.noindex %}
         <meta name="robots" content="noindex">
-        {% endunless %}
+        {% endif %}
         
         
         
