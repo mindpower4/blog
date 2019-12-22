@@ -11,10 +11,10 @@
         {% endunless %}
         
         
-        {% unless page.id == 'gone' and site.noindex =='false' %}
+        {% if site.noindex != 'false' %}
         {% include noindex.html %}
         
-        {% endunless %}
+        {% endif %}
         
         
         
