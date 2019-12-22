@@ -8,7 +8,7 @@
         {% unless page.id != 'gone' %}<meta name="robots" content="noindex,nofollow">{% endunless %}
         
 
-{% unless page.id != 'gone' and site.noindex == 'false' %}
+{% unless page.id == 'gone' and site.noindex == 'false' %}
 
         <meta name="robots" content="noindex">
 {% endunless %} 
