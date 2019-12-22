@@ -15,9 +15,10 @@
         {% endunless %}
         
         
-        {% if site.noindex='true' %}
+        {% unless site.noindex='false' %}
+        {% include noindex.html %}
         <meta name="robots" content="noindex">
-        {% endif %}
+        {% endunless %}
         
         
         
