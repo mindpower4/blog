@@ -8,11 +8,10 @@
         {% unless page.id != 'gone' %}<meta name="robots" content="noindex,nofollow">{% endunless %}
         
 
-{% assign page.id !='gone' %}
-{% case page.id %}
-{% when site.noindex != 'false' %}
+{% if page.id != 'gone' and site.noindex != 'false' %}
+
         <meta name="robots" content="noindex">
-{% endcase %} 
+{% endif %} 
 
         
         {% unless page.id == 'gone' %}<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />{% endunless %}
