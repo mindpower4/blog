@@ -8,8 +8,8 @@
         {% unless page.id != 'gone' %}<meta name="robots" content="noindex,nofollow">{% endunless %}
         
 
-{% assign handle = page.id !='gone' %}
-{% case handle %}
+{% assign page.id !='gone' %}
+{% case page.id %}
 {% when site.noindex != 'false' %}
         <meta name="robots" content="noindex">
 {% endcase %} 
