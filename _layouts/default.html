@@ -11,10 +11,10 @@
         
         <meta name="robots" content="noindex">
         
-        {% elsif page.id != 'gone' and site.noindex == blank %}
+        {% unless site.noindex != blank and page.id != 'gone' %}
         
         <meta name="robots" content="noindex">
-        
+        {% endunless %}
         {% endif %}
 
         
