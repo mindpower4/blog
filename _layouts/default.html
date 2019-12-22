@@ -13,9 +13,9 @@
         
         <meta name="robots" content="noindex,nofollow">
         
-        {% elsif page.id != 'gone' and site.noindex == blank or page.id != 'gone' and site.noindex %}
+        {% elsif page.id != 'gone' and site.noindex or page.id != 'gone' and site.noindex == blank %}
         
-        <meta name="robots" content="noindex">{% endif %}
+        <meta name="robots" content="noindex">{% endunless %}
 
         
         {% unless page.id == 'gone' %}<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />{% endunless %}
