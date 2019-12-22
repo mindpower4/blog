@@ -7,11 +7,19 @@
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
         
         
-        {% unless page.id != 'gone' %}
-        <meta name="robots" content="noindex,nofollow">
-        {% elsif site.noindex != 'false' %}
+        {% unless page.id == 'gone' and site.noindex == 'false' %}
         <meta name="robots" content="noindex">
+        {% elsif page.id == 'gone' %}
+        <meta name="robots" content="noindex,nofollow">
         {% endunless %}
+        
+        
+        
+        
+        
+        
+        
+        
 
         
         {% unless page.id == 'gone' %}<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />{% endunless %}
