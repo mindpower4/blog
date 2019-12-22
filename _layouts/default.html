@@ -9,9 +9,9 @@
         
         {% unless page.id != 'gone' %}
         <meta name="robots" content="noindex,nofollow">
-        {% elsif page.id != 'gone' %}{% if site.noindex != 'false' %}
+        {% elsif page.id != 'gone' and site.noindex != 'false' %}
         <meta name="robots" content="noindex">
-        {% endif %}{% endunless %}
+        {% endunless %}
         
         {% unless page.id == 'gone' %}<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />{% endunless %}
         {% unless site.og_site-name == blank %}
