@@ -5,8 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-        {% if page.id != 'gone' and site.noindex == 'true' %}
-        <meta name="robots" content="noindex">{% elsif page.id == 'gone' %}
+        {% if page.id != 'gone' %} 
+        {% unless site.noindex == 'false' %}
+        
+        <meta name="robots" content="noindex">
+        {% else %}
+        {% elsif page.id == 'gone' %}
+        
         <meta name="robots" content="noindex,nofollow">{% endif %}
         {% unless page.id == 'gone' %}<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />{% endunless %}
         {% unless site.og_site-name == blank %}
