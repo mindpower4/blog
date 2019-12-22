@@ -5,17 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-        {% unless page.id != 'gone' %}
-        <meta name="robots" content="noindex,nofollow">
-        
-        {% endunless %}
+        {% unless page.id != 'gone' %}<meta name="robots" content="noindex,nofollow">{% endunless %}
         
         
-        {% unless page.id == 'gone' %}
-        {% if site.noindex != 'false' %}
+        {% if page.id != 'gone' %}{% unless site.noindex != 'false' %}
+ 
         <meta name="robots" content="noindex">
-        {% endif %}
-        {% endunless %}
+        
+       
+        
+        {% endunless %}{% endif %}
         
         
         
