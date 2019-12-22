@@ -14,7 +14,7 @@ description: Homepage Example Description
 # Search Engine Indexing | Set "false" to Allow  
 # Long Term Noindex Will Lead To Nofollow On Links
 
-noindex: tru
+noindex: false
 
 # Meta Tags / Site Title & Description Above Already Set?
 
