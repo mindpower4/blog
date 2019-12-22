@@ -11,7 +11,7 @@
         
         
         
-        {% if and page.id !='gone' and site.noindex %}
+        {% unless site.noindex != 'true' %}
         <meta name="robots" content="noindex">
         {% endif %}
         
