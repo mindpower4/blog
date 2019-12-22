@@ -7,13 +7,13 @@
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
         
         
-        {% if site.noindex == 'true' and site.noindex != blank and and page.id != 'gone' %}
-        <meta name="robots" content="noindex">
-        
-        {% elsif page.id == 'gone' %}
-        
+        {% if page.id == 'gone' %}
         <meta name="robots" content="noindex,nofollow">
         
+        {% elsif page.id != 'gone' %}
+        {% unless site.noindex == 'false' %}
+        <meta name="robots" content="noindex">
+        {% endunless %}
         {% endif %}
         
         
