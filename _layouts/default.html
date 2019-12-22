@@ -15,7 +15,7 @@
         {% endunless %}
         
         
-        {% unless site.noindex == 'false' page.id != 'gone' %}
+        {% unless site.noindex == 'false' page.id == 'gone' %}
         <meta name="robots" content="noindex">
         {% endunless %}
         
