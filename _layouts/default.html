@@ -15,14 +15,8 @@
         
         {% elsif page.id != 'gone' and site.noindex == blank or site.noindex %}
         
-        <meta name="robots" content="noindex">
-        
-        {% endif %}
+        <meta name="robots" content="noindex">{% endif %}
 
-        
-        
-        
-        
         
         {% unless page.id == 'gone' %}<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />{% endunless %}
         {% unless site.og_site-name == blank %}
