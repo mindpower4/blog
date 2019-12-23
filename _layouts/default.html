@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>{% unless page.id == 'gone' %}
-        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />{% endunless %}{% if page.id == 'gone' %}
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">{% endunless %}{% if page.id == 'gone' %}
         <meta name="robots" content="noindex,nofollow">{% elsif page.id != 'gone' and site.noindex %}
         <meta name="robots" content="noindex">{% endif %}
 
