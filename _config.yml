@@ -11,7 +11,7 @@ title: Discover Top VPNs - Our Recommended Services for Living in China
 description: Homepage Example Description
 
 
-# Search Engine Indexing | Set "false" to Allow  
+# Search | Set "false" or leave empty for Indexing
 # Long Term Noindex Will Lead To Nofollow On Links
 
 noindex: true
