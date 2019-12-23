@@ -1,8 +1,8 @@
 <meta property="og:locale" content="{% unless site.og_locale %}en_US{% else %}{{ site.og_locale }}{% endunless %}" />
         <meta property="og:type" content="{% unless page.id == 'Home' or page.id == 'gone' %}article{% elsif page.id == 'gone' %}object{% else %}website{% endunless %}" />
-        <meta property="og:title" content="{% unless page.title %}{{ site.title }}{% else %}{{ page.title }}{% endunless %}" />
-        {% if page.id != 'gone' %}<meta property="og:description" content="{% unless page.description %}{{ site.description }}{% else %}{{ page.description }}{% endunless %}" />{% endif %}
-        {% if page.id != 'gone' %}<meta property="og:url" content="{% unless page.url %}{{ site.url }}{% else %}{{ page.url | prepend: site.url }}{% endunless %}" />{% endif %}
+        <meta property="og:title" content="{% unless page.title %}{{ site.title }}{% else %}{{ page.title }}{% endunless %}" />{% if page.id != 'gone' %}
+        <meta property="og:description" content="{% unless page.description %}{{ site.description }}{% else %}{{ page.description }}{% endunless %}" />{% endif %}{% if page.id != 'gone' %}
+        <meta property="og:url" content="{% unless page.url %}{{ site.url }}{% else %}{{ page.url | prepend: site.url }}{% endunless %}" />{% endif %}
         <meta property="og:site_name" content="{{ site.og_site-name }}" />{% if site.og_img-width and site.og_img-height and site.og_img contains 'https://' %}{% unless page.id != 'Home' %}
         <meta property="og:image" content="{{ site.og_img }}" />
         <meta property="og:image:secure_url" content="{{ site.og_img }}" />
