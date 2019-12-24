@@ -1,4 +1,4 @@
-<meta name="twitter:card" content="{% unless page.tc %}{{ site.tc }}{% else %}{{ page.tc }}{% endunless %}">{% unless site.ts %}
+<meta name="twitter:card" content="{% unless page.tc %}{{ site.tc }}{% else %}{{ page.tc }}{% endunless %}">{% unless site.ts or site.footer-links.twitter %}
         <meta name="twitter:site" content="{{ site.footer-links.twitter | prepend: '@'}}">{% elsif site.ts %}<meta name="twitter:site" content="{{ site.ts }} | prepend: @">{% endunless %}
         <meta name="twitter:title" content="{% unless page.title %}{{ site.title }}{% else %}{{ page.title }}{% endunless %}">
         <meta name="twitter:description" content="{% unless page.description %}{{ site.description }}{% else %}{{ page.description }}{% endunless %}">
