@@ -10,8 +10,7 @@
 
         {% unless page.id == 'gone' %}<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">{% endunless %}
         {% unless site.og_site-name == blank %}{% if page.description or site.description and site.title %}
-        {% include ogtags.html %}{% endif %}{% endunless %}
-        {% if page.description or site.description and site.title and site.tc_img contains 'https://' %}
+        {% include ogtags.html %}{% endif %}{% endunless %}{% if page.description or site.description and site.title and site.tc_img contains 'https://' %}
         {% include twittercards.html %}{% endif %}
       
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
