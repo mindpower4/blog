@@ -36,6 +36,9 @@ tc: summary_large_image
 ts: 
 tc_img: https://yourimgurl.com/image.png
 
+# Structured Data - JSON-LD
+
+schema:
 
 entity-stack:
 twitter:
