@@ -17,7 +17,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | prepend: 'Feed | ' }}" href="{{ site.baseurl }}/feed.xml">
 
         
-        {% unless site.schema != 'enabled' %}
+        {% unless site.schema != 'enable' %}
         {% include json-ld.html %}
         {% endunless %}       
         
