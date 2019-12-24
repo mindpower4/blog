@@ -15,7 +15,7 @@
         {% include ogtags.html %}
         {% endif %}{% endunless %}
         
-        {% if page.description or site.description and site.tc_img %}
+        {% if page.description or site.description and site.tc_img contains 'https://' %}
         {% include twittercards.html %}
         {% endif %}
       
