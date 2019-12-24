@@ -37,9 +37,12 @@ ts:
 tc_img: https://yourimgurl.com/image.png
 
 # Structured Data & JSON-LD
-# Set 'enable' for schema.org markup
 
+# Set 'enable' for schema.org markup
 schema: 
+# Schema Subtype e.g. 'Corporation' or 'LocalBusiness',
+# visit schema.org/Organization#subtypes for more. 
+type: 
 
 # Branding - Entity Stacking
 entity-stack:
