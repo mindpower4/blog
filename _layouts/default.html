@@ -16,6 +16,22 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | prepend: 'Feed | ' }}" href="{{ site.baseurl }}/feed.xml">
 
+        
+        {% unless site.entity-stack %}
+        
+        "sameAs": [
+      
+        "https://www.linkedin.com/company/test",
+      
+        "https://twitter.com/test",
+      
+        "https://www.facebook.com/test/"
+      
+    ]
+        
+        {% endunless %}
+        
+        
   </head>
 
   <body>
