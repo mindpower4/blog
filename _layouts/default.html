@@ -17,7 +17,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | prepend: 'Feed | ' }}" href="{{ site.baseurl }}/feed.xml">
 
         
-        {% unless site.entity-stack %}
+        {% unless site.entity-stack == blank %}
         
         "sameAs": [
       
