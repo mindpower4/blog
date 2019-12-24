@@ -17,9 +17,9 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | prepend: 'Feed | ' }}" href="{{ site.baseurl }}/feed.xml">
 
         
-        {% if site.schema %}
+        {% unless site.schema == blank or site.schema != 'true' %}
         {% include json-ld.html %}
-        {% endif %}       
+        {% endunless %}       
         
   </head>
 
