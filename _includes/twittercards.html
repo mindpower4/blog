@@ -1,5 +1,5 @@
-<meta name="twitter:card" content="{% unless page.tc@ %}{{ site.tc@ }}{% else %}{{ page.tc@ }}{% endunless %}">{% if site.ts@ or site.footer-links.twitter %}
-        <meta name="twitter:site" content="{% unless site.ts@ %}{{ site.footer-links.twitter | prepend: '@'}}{% elsif site.ts@ %}{{ site.ts@ | prepend: '@'}}{% endunless %}">{% endif %}
+<meta name="twitter:card" content="{% unless page.tc %}{{ site.tc }}{% else %}{{ page.tc }}{% endunless %}">{% if site.ts or site.footer-links.twitter %}
+        <meta name="twitter:site" content="{% unless site.ts %}{{ site.footer-links.twitter | prepend: '@'}}{% elsif site.ts %}{{ site.ts | prepend: '@'}}{% endunless %}">{% endif %}
         <meta name="twitter:title" content="{% unless page.title %}{{ site.title }}{% else %}{{ page.title }}{% endunless %}">
         <meta name="twitter:description" content="{% unless page.description %}{{ site.description }}{% else %}{{ page.description }}{% endunless %}">
         <meta name="twitter:image" content="{% unless page.tc_img %}{{ site.tc_img }}{% else %}{{ page.tc_img }}{% endunless %}">
