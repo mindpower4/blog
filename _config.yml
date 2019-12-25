@@ -39,7 +39,7 @@ tc_img: https://yourimgurl.com/image.png
 # Structured Data & JSON-LD / schema.org
 
 # Enter your Brand Name, e.g. 'BestBuy' for markup.
-brand: mybrrrand
+brand: BestChinaVPN
 # Schema Subtype e.g. 'Corporation' or 'LocalBusiness',
 # visit schema.org/Organization#subtypes for more. 
 type: 
