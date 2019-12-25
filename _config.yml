@@ -45,6 +45,10 @@ schema: enable
 type: 
 
 # Branding - Entity Stacking
+
+# Enter your Brand Name, e.g. BestBuy.
+brand:
+
 entity-stack:
   linkedin: 
   twitter: 
