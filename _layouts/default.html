@@ -17,7 +17,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | prepend: 'Feed | ' }}" href="{{ site.baseurl }}/feed.xml">
 
         
-        {% unless site.brand %}{% if site.avatar contains 'https://' and site.url contains 'https://' %}
+        {% unless site.brand == blank %}{% if site.avatar contains 'https://' and site.url contains 'https://' %}
         {% include json-ld.html %}{% endif %}{% endunless %}       
         
   </head>
