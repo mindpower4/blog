@@ -36,8 +36,8 @@ og_img-height: 400
 tc: summary_large_image
 # Your 'twitter:site', enter username without '@'
 ts: bestchinavpn
-# Images must be less than 5MB in size. SVG is not supported.
-# Used with summary, summary_large_image, player cards
+# Image must be less than 5MB in size. 
+# No SVG support and 'https' is required.
 tc_img: https://yourimgurl.com/image.png
 
 # Structured Data & JSON-LD / schema.org
