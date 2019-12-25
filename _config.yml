@@ -107,8 +107,8 @@ baseurl: ""
 
 permalink: /:title/
 
-# The release of seovly that you're using
-version: v1.0.2
+# The release of BeastSEO that you're using
+version: v1.0.5
 
 # Jekyll Kramdown
 kramdown:
