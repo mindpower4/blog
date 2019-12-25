@@ -17,9 +17,8 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | prepend: 'Feed | ' }}" href="{{ site.baseurl }}/feed.xml">
 
         
-        {% unless site.schema != 'enable' %}
-        {% include json-ld.html %}
-        {% endunless %}       
+        {% unless site.schema != 'enable' %}{% if site.url contains 'https://' %}
+        {% include json-ld.html %}{% endif %}{% endunless %}       
         
   </head>
 
