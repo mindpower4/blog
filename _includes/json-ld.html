@@ -1,25 +1,25 @@
- <script type="application/ld+json">
+<script type="application/ld+json">
       [
         
 {
   "@context": "http://schema.org",
-  "@type": "Organization",
-  "url": "https://www.thinkwithgoogle.com/",
-  "logo": "https://www.thinkwithgoogle.com/_qs/static/img/global/twg-logo-large.jpg"
+  "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
+  "url": "{% if base.url %}{{ append: '{{ base.url }}' }}{% else %}{{ site.url }}{% endif %}",
+  "logo": "{{ site.avatar }}"
 },
 {
   "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "ThinkwithGoogle",
-  "url": "https://www.thinkwithgoogle.com/",
+  "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
+  "name": "{{ site.brand }}",
+  "url": "{{ site.url }}",
   
     "sameAs": [
       
-        "https://www.linkedin.com/company/think-with-google",
+        "https://www.linkedin.com/company/",
       
-        "https://twitter.com/ThinkwithGoogle",
+        "https://twitter.com/",
       
-        "https://www.facebook.com/ThinkwithGoogle/"
+        "https://www.facebook.com/"
       
     ]
   
@@ -31,49 +31,25 @@
 {
   "@context": "http://schema.org",
   "@type": "WebSite",
-  "url": "https://www.thinkwithgoogle.com/",
+  "url": "{{ site.url }}",
   "publisher": {
-    "@type": "Organization",
-    "name": "ThinkwithGoogle",
+    "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
+    "name": "{{ site.brand }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.thinkwithgoogle.com/_qs/static/img/global/twg-logo-small.jpg",
-      "height": 60,
-      "width": 107
+      "url": "{{ site.avatar }}",
+      "height": 0,
+      "width": 0
     }
   },
-  "name": "Think with Google - Discover Marketing Research &amp; Digital Trends",
+  "name": "",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://www.thinkwithgoogle.com/search/#?query={search_term_string}",
-    "query-input": "required name=search_term_string"
+    "target": "",
+    "query-input": ""
   }
 }
     
         
       ]
     </script>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        "sameAs": [
-      
-        "https://www.linkedin.com/company/test",
-      
-        "https://twitter.com/test",
-      
-        "https://www.facebook.com/test/"
-      
-    ]
