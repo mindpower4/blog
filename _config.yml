@@ -36,20 +36,19 @@ tc: summary_large_image
 ts: 
 tc_img: https://yourimgurl.com/image.png
 
-# Structured Data & JSON-LD
+# Structured Data & JSON-LD / schema.org
 
-# Set 'enable' for schema.org markup
-schema: enable
+# Enter your Brand Name, e.g. 'BestBuy' for markup.
+brand: 
 # Schema Subtype e.g. 'Corporation' or 'LocalBusiness',
 # visit schema.org/Organization#subtypes for more. 
 type: 
 
-# Branding - Entity Stacking
-
-# Enter your Brand Name, e.g. BestBuy.
-brand:
+# Entity Stacking - Brand Confirmation
 
 entity-stack:
+# Every Profile should contain your chosen Brand Name in the inner URL,
+# if you have a footer link profile , it will subsititute
   linkedin: 
   twitter: 
   facebook: 
