@@ -40,8 +40,8 @@ tc_img: https://yourimgurl.com/image.png
 
 # Enter your Brand Name, e.g. 'BestBuy' for markup.
 brand: BestChinaVPN
-# Schema Subtype e.g. 'Corporation' or 'LocalBusiness',
-# visit schema.org/Organization#subtypes for more. 
+# Schema Type e.g. 'CreativeWork' or 'LocalBusiness',
+# visit schema.org/Thing#subtypes for more.
 type: 
 
 # Entity Stacking - Brand Confirmation
