@@ -17,7 +17,7 @@
       
         {% if site.entity-stack.linkedin %}"{{ site.entity-stack.linkedin }}",{% elsif site.entity-stack.twitter %}
       
-        "https://twitter.com/{{ site.entity-stack.twitter }}"{% elsif site.entity-stack.facebook %},
+        "https://twitter.com/{{ site.entity-stack.twitter }}"{% elsif site.entity-stack.facebook != blank %},
       
         "{{ site.entity-stack.facebook }}"{% else %}
       
