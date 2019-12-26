@@ -15,11 +15,11 @@
   
         "sameAs": [
       
-        {% if entity-stack.linkedin %}"{{ entity-stack.linkedin }}"{% elsif entity-stack.twitter %},
+        {% if site.entity-stack.linkedin %}"{{ site.entity-stack.linkedin }}"{% elsif site.entity-stack.twitter %},
       
-        "{{ entity-stack.twitter }}"{% elsif entity-stack.facebook %},
+        "{{ site.entity-stack.twitter }}"{% elsif site.entity-stack.facebook %},
       
-        "{{ entity-stack.facebook }}"{% else %}
+        "{{ site.entity-stack.facebook }}"{% else %}
       
     ]
   
