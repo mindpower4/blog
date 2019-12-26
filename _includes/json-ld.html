@@ -13,18 +13,18 @@
   "name": "{{ site.brand }}",
   "url": "{{ site.url }}",
   
-    "sameAs": [
+        "sameAs": [
       
-        "https://www.linkedin.com/company/",
+        {% if entity-stack.linkedin %}"{{ entity-stack.linkedin }}"{% elsif entity-stack.twitter %},
       
-        "https://twitter.com/",
+        "{{ entity-stack.twitter }}"{% elsif entity-stack.facebook %},
       
-        "https://www.facebook.com/"
+        "{{ entity-stack.facebook }}"{% else %}
       
     ]
   
 }
-        ,
+{% endif %}        ,
           
       
   
