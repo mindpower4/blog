@@ -6,7 +6,7 @@
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
   "url": "{% if base.url %}{{ append: '{{ base.url }}' }}{% else %}{{ site.url }}{% endif %}",
   "logo": "{{ site.avatar }}"
-},
+}{% if site.entity-stack %},
 {
   "@context": "http://schema.org",
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
@@ -15,16 +15,14 @@
   
         "sameAs": [
       
-        {% if site.entity-stack.linkedin %}"{{ site.entity-stack.linkedin }}",{% elsif site.entity-stack.twitter %}
-      
-        "https://twitter.com/{{ site.entity-stack.twitter }}"{% elsif site.entity-stack.facebook != blank %},
-      
-        "{{ site.entity-stack.facebook }}"
+        {% unless site.entity-stack.linkedin %}"{{ site.entity-stack.linkedin }}"{% endunless %}
+        {% unless site.entity-stack.twitter %}"https://twitter.com/{{ site.entity-stack.twitter }}"{% endunless %}
+        {% unless site.entity-stack.facebook %}"https://facebook.com/{{ site.entity-stack.facebook }}"{% endunless %}
       
     ]
   
 }
-{% endif %}        ,
+        ,
           
       
   
