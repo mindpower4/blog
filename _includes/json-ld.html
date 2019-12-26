@@ -15,9 +15,9 @@
   
         "sameAs": [
       
-        {% if site.entity-stack.linkedin %}"{{ site.entity-stack.linkedin }}"{% elsif site.entity-stack.twitter %},
+        {% if site.entity-stack.linkedin %}"{{ site.entity-stack.linkedin }}",{% elsif site.entity-stack.twitter %}
       
-        "{{ site.entity-stack.twitter }}"{% elsif site.entity-stack.facebook %},
+        "https://twitter.com/{{ site.entity-stack.twitter }}"{% elsif site.entity-stack.facebook %},
       
         "{{ site.entity-stack.facebook }}"{% else %}
       
