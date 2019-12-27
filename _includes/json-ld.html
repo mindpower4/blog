@@ -14,13 +14,13 @@
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
   "name": "{{ site.brand }}",
   "url": "{{ site.url }}",
-  
+  {% if site.entity-stack %}
         "sameAs": [
         
         {{ site.entity-stack.a }}
         
     ]
-  
+  {% endif %}
 }
 
 ,
