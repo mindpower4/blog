@@ -17,7 +17,7 @@
         {% if site.entity-stack.a %}
         "sameAs": [
         
-        {% elsif site.entity-stack.j contains 'https://' %}{{ site.entity-stack.j | append: '"' | prepend: '",' }}
+        {% if site.entity-stack.j contains 'https://' %}{{ site.entity-stack.j | append: '"' | prepend: '",' }}{% endif %}
         
         
         
