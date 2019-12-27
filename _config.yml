@@ -52,6 +52,8 @@ type:
 
 entity-stack:
   main: profile-main
+entity-stack.additional:
+  1: uhkj
 # A powerful method to leverage Schema and establish
 # an Entity to gain Trust and Authority in Google.
 # Each Profile should contain the chosen Brand Name in
