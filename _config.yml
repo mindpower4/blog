@@ -42,32 +42,30 @@ tc_img: https://yourimgurl.com/image.png
 
 # Structured Data & JSON-LD / schema.org
 
-# Enter your Brand Name, e.g. 'BestBuy' for markup.
-brand: BestChinaVPN
 # Schema Type e.g. 'CreativeWork' or 'LocalBusiness',
 # visit schema.org/Thing#subtypes for more.
 type: 
+# Enter your Brand Name, e.g. 'BestBuy' for markup.
+name: BestChinaVPN
 
 # Entity Stacking - Branding!
 
 # A powerful method to leverage Schema and establish
 # an Entity to gain Trust and Authority in Google.
-# Each Profile/Website must contain the chosen Brand Name 
-# in the URL for effective confirmations.
 
 entity-stack: # "sameAs": [
 # DEFAULT PROFILE IS REQUIRED
   a: https://twitter.com/bestchinavpn
 # THE STACK
-  b: Website_1
-  c: Website_2
-  d: Website_3
-  e: Website_4
-  f: Website_5
-  g: Website_6
-  h: Website_7
-  i: Website_8
-  j: Website_9
+  b: Website_1/brand-name
+  c: Website_2/brand-name
+  d: Website_3/brand-name
+  e: Website_4/brand-name
+  f: Website_5/brand-name
+  g: Website_6/brand-name
+  h: Website_7/brand-name
+  i: Website_8/brand-name
+  j: Website_9/brand-name
 # ]
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
