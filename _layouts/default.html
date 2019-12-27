@@ -17,7 +17,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | prepend: 'Feed | ' }}" href="{{ site.baseurl }}/feed.xml">
 
         
-        {% unless site.name == blank %}{% if site.avatar contains 'https://' and site.url contains 'https://' %}
+        {% unless site.name == blank %}{% if site.logo contains 'https://' and site.url contains 'https://' %}
         {% include json-ld.html %}{% endif %}{% endunless %}       
         
   </head>
@@ -26,7 +26,7 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}"></a>
+          <a href="{{ site.baseurl }}/" class="site-logo"><img src="{{ site.logo }}"></a>
 
           <nav>
             <a href="{{ site.baseurl }}/reviews">Reviews</a>
