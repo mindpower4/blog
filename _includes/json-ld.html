@@ -4,7 +4,7 @@
   "@context": "http://schema.org",
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
   "url": "{% if base.url %}{{ append: '{{ base.url }}' }}{% else %}{{ site.url }}{% endif %}",
-  "logo": "{{ site.avatar }}"
+  "logo": "{{ site.logo }}"
 }
 
 ,
@@ -45,7 +45,7 @@
     "name": "{{ site.name }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.avatar }}",
+      "url": "{{ site.logo }}",
       "height": 0,
       "width": 0
     }
