@@ -57,7 +57,7 @@ type:
 
 entity-stack: # "sameAs": [
 # DEFAULT PROFILE IS REQUIRED
-  a:  
+  a: https://twitter.com/bestchinavpn
 # THE STACK
   b: 
   c: 
@@ -67,7 +67,7 @@ entity-stack: # "sameAs": [
   g: 
   h: 
   i: 
-  j: https://twitter.com/bestchinavpn  
+  j:   
 # ]
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
