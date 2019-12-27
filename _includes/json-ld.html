@@ -17,12 +17,12 @@
         {% if site.entity-stack.a %}
         "sameAs": [
         
-        {{ site.entity-stack.j | append: '"' and prepend: '",' }}
+        {{ site.entity-stack.j | append: '"' | prepend: '",' }}
         
         
         
         
-        {{ site.entity-stack.a | append: '"' and prepend: '"' }}
+        {{ site.entity-stack.a | append: '"' | prepend: '"' }}
         
     ]
   {% endif %}
