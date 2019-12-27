@@ -17,7 +17,7 @@
         
         "sameAs": [
         
-        {% if site.entity-stack.a %}zztvghbjnkm,.{% endif %}
+        {% unless site.entity-stack.a == blank %}{{ site.entity-stack.a }}{% endunless %}
         
     ]
   
