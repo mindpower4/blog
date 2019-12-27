@@ -56,7 +56,9 @@ type:
 # the inner URL for effective confirmations.
 
 entity-stack: # "sameAs": [
-  a: https://github.com/test
+# DEFAULT PROFILE IS REQUIRED
+  a:  
+# THE STACK
   b: 
   c: 
   d: 
