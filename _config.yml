@@ -52,22 +52,22 @@ type:
 
 # A powerful method to leverage Schema and establish
 # an Entity to gain Trust and Authority in Google.
-# Each Profile should contain the chosen Brand Name in
-# the inner URL for effective confirmations.
+# Each Profile/Website must contain the chosen Brand Name 
+# in the URL for effective confirmations.
 
 entity-stack: # "sameAs": [
 # DEFAULT PROFILE IS REQUIRED
   a: e.g. https://twitter.com/bestchinavpn
 # THE STACK
-  b: 
-  c: 
-  d: 
-  e: 
-  f: 
-  g: 
-  h: 
-  i: 
-  j:   
+  b: Website_1
+  c: Website_2
+  d: Website_3
+  e: Website_4
+  f: Website_5
+  g: Website_6
+  h: Website_7
+  i: Website_8
+  j: Website_9
 # ]
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
