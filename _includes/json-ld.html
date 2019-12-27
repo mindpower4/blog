@@ -14,7 +14,7 @@
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
   "name": "{{ site.brand }}",
   "url": "{{ site.url }}",
-  {% if site.entity-stack %}
+  {% if site.entity-stack.a %}
         "sameAs": [
         
         {{ site.entity-stack.a }}
