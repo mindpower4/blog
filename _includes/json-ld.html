@@ -13,8 +13,8 @@
   "@context": "http://schema.org",
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
   "name": "{{ site.brand }}",
-  "url": "{{ site.url }}",
-        {% if site.entity-stack.a contains 'https://' %}
+  "url": "{{ site.url }}"{% if site.entity-stack.a contains 'https://' %}{% unless site.entity-stack.a contains 'e.g.' %},
+        
         "sameAs": [
         {% if site.entity-stack.j contains 'https://' %}
         {{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.i contains 'https://' %}
@@ -29,7 +29,7 @@
         {{ site.entity-stack.a | append: '"' | prepend: '"' }}
         
     ]
-  {% endif %}
+  {% endunless %}{% endif %}
 }
 
 ,
