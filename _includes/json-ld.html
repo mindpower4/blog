@@ -14,10 +14,10 @@
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
   "name": "{{ site.brand }}",
   "url": "{{ site.url }}",
-        {% if site.entity-stack.main %}
+        {% if site.entity-stack.a %}
         "sameAs": [
         
-        {% unless site.entity-stack.main == blank %}{{ site.entity-stack.a }}{% endunless %}
+        {{ site.entity-stack.a }}
         
     ]
   {% endif %}
