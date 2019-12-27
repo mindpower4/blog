@@ -52,11 +52,16 @@ type:
 
 entity-stack:
 # "sameAs": [
-site1: uhi
-site2: uijo
-site3: kol
-site4: jkml
-site5: ijk
+one: tzguih
+two: uijo
+three: kol
+four: jkml
+five: ijk
+six: ghj
+seven: hjbnk
+eight: uzuhj
+nine: vghjn
+ten: tztzguhj
 # ]
   
 # A powerful method to leverage Schema and establish
