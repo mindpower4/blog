@@ -17,7 +17,12 @@
         {% if site.entity-stack.a %}
         "sameAs": [
         
-        {{ site.entity-stack.a }}
+        {{ site.entity-stack.j | append: '"' and prepend: '",' }}
+        
+        
+        
+        
+        {{ site.entity-stack.a | append: '"' and prepend: '"' }}
         
     ]
   {% endif %}
