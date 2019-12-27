@@ -17,7 +17,8 @@
   
         "sameAs": [
         
-        {% if site.entity-stack.one %}{{ site.entity-stack.one }}{% endif %}
+        {% if site.entity-stack %}
+        {% elsif site.entity-stack.one %}{{ site.entity-stack.one }}{% endif %}
         
     ]
   
