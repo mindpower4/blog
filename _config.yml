@@ -55,7 +55,7 @@ type:
 # Each Profile should contain the chosen Brand Name in
 # the inner URL for effective confirmations.
 
-entity-stack: # "sameAs": [
+entity-stack: 
 a: https://github.com/pauldambra
 # ]
 
