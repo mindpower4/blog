@@ -60,7 +60,7 @@ entity-stack: # "sameAs": [
   b: Website_1/brand-name
   c: Website_2/brand-name
   d: Website_3/brand-name
-  e: Website_4/brand-name
+  e: https://instagram.com/brand-name
   f: Website_5/brand-name
   g: Website_6/brand-name
   h: Website_7/brand-name
