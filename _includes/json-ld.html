@@ -6,7 +6,10 @@
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
   "url": "{% if base.url %}{{ append: '{{ base.url }}' }}{% else %}{{ site.url }}{% endif %}",
   "logo": "{{ site.avatar }}"
-}{% if site.entity-stack %},
+}
+
+{% if site.entity-stack.main %},
+
 {
   "@context": "http://schema.org",
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
@@ -14,14 +17,19 @@
   "url": "{{ site.url }}",
   
         "sameAs": [
-      
-        {% unless site.entity-stack.linkedin %}"{{ site.entity-stack.linkedin }}"{% endunless %}
-        {% unless site.entity-stack.twitter %}"https://twitter.com/{{ site.entity-stack.twitter }}"{% endunless %}
-        {% unless site.entity-stack.facebook %}"https://facebook.com/{{ site.entity-stack.facebook }}"{% endunless %}
+        
+        {% elsif site.entity-stack.linkedin %}"{{ site.entity-stack.linkedin }}",{% endif %}
+        {% elsif site.entity-stack.twitter %}"https://twitter.com/{{ site.entity-stack.twitter }}",{% endif %}
+        {% elsif site.entity-stack.facebook %}"https://facebook.com/{{ site.entity-stack.facebook }}",{% endif %}
+        {% elsif site.entity-stack.instagram %}"{{ site.entity-stack.instagram }}",{% endif %}      
+        
+        "{{ site.entity-stack.main }}"
+
       
     ]
   
 }
+
 {% endif %},
           
       
