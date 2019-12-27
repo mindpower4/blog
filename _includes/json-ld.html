@@ -22,11 +22,8 @@
         {% elsif site.entity-stack.twitter %}"https://twitter.com/{{ site.entity-stack.twitter }}",
         {% elsif site.entity-stack.facebook %}"https://facebook.com/{{ site.entity-stack.facebook }}",
         {% elsif site.entity-stack.instagram %}"{{ site.entity-stack.instagram }}",{% endif %}      
-        
-        "{{ site.entity-stack.main }}"{% if site.entity-stack.additional %},
-        {% if site.entity-stack.additional.1 %}{{ site.entity-stack.additional.1 }},
-        {% elsif site.entity-stack.additional.2 %}{{ site.entity-stack.additional.2 }},
-        {% endif %}
+        {% elsif site.entity-stack.websites %}
+        "{{ site.entity-stack.main }}"
     ]
   
 }
