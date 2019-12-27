@@ -58,12 +58,12 @@ entity-stack: # "sameAs": [
   a: https://twitter.com/bestchinavpn
 # THE STACK
   b: Website_1/brand-name
-  c: Website_2/brand-name
+  c: https://www.youtube.com/brand-name
   d: Website_3/brand-name
-  e: https://instagram.com/brand-name
+  e: https://www.instagram.com/brand-name
   f: Website_5/brand-name
   g: Website_6/brand-name
-  h: Website_7/brand-name
+  h: https://www.linkedin.com/brand-name
   i: Website_8/brand-name
   j: Website_9/brand-name
 # ]
