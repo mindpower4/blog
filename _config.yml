@@ -56,7 +56,7 @@ type:
 # the inner URL for effective confirmations.
 
 entity-stack: 
-main: https://github.com/pauldambra
+  main: https://github.com/pauldambra
 # ]
 
 
