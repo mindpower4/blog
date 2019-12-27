@@ -51,6 +51,7 @@ type:
 # Entity Stacking - Branding!
 
 entity-stack:
+  main: profile-main
 # A powerful method to leverage Schema and establish
 # an Entity to gain Trust and Authority in Google.
 # Each Profile should contain the chosen Brand Name in
