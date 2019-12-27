@@ -56,7 +56,6 @@ type:
 # the inner URL for effective confirmations.
 
 entity-stack:
-# "sameAs": [
 one: https://github.com/pauldambra
 two: uijo
 three: kol
