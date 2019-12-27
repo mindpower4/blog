@@ -16,16 +16,16 @@
   "url": "{{ site.url }}",
         {% if site.entity-stack.a contains 'https://' %}
         "sameAs": [
-        
-        {% if site.entity-stack.j contains 'https://' %}{{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}
-        {% if site.entity-stack.i contains 'https://' %}{{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}
-        {% if site.entity-stack.h contains 'https://' %}{{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}
-        {% if site.entity-stack.g contains 'https://' %}{{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}
-        {% if site.entity-stack.f contains 'https://' %}{{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}
-        {% if site.entity-stack.e contains 'https://' %}{{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}
-        {% if site.entity-stack.d contains 'https://' %}{{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}
-        {% if site.entity-stack.c contains 'https://' %}{{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}
-        {% if site.entity-stack.b contains 'https://' %}{{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}
+        {% if site.entity-stack.j contains 'https://' %}
+        {{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.i contains 'https://' %}
+        {{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.h contains 'https://' %}
+        {{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.g contains 'https://' %}
+        {{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.f contains 'https://' %}
+        {{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.e contains 'https://' %}
+        {{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.d contains 'https://' %}
+        {{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.c contains 'https://' %}
+        {{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.b contains 'https://' %}
+        {{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}
         {{ site.entity-stack.a | append: '"' | prepend: '"' }}
         
     ]
