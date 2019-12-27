@@ -55,11 +55,17 @@ type:
 # Each Profile should contain the chosen Brand Name in
 # the inner URL for effective confirmations.
 
-entity-stack: 
-  main: https://github.com/pauldambra
-# ]
-
-
+entity-stack: # "sameAs": [
+  a: https://github.com/pauldambra
+  b:
+  c:
+  d:
+  e:
+  f:
+  g:
+  h:
+  i:
+  j:                            # ]
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/mindpower4/blog/master/images/logo.png
