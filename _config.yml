@@ -57,7 +57,7 @@ type:
 
 entity-stack: # "sameAs": [
 # DEFAULT PROFILE IS REQUIRED
-  a: e.g. https://twitter.com/bestchinavpn
+  a: https://twitter.com/bestchinavpn
 # THE STACK
   b: Website_1
   c: Website_2
