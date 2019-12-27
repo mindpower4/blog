@@ -22,7 +22,7 @@
         {% elsif site.entity-stack.twitter %}"https://twitter.com/{{ site.entity-stack.twitter }}",
         {% elsif site.entity-stack.facebook %}"https://facebook.com/{{ site.entity-stack.facebook }}",
         {% elsif site.entity-stack.instagram %}"{{ site.entity-stack.instagram }}",{% endif %}      
-        {% elsif site.entity-stack.websites %}
+        {% if site.entity-stack.websites %}"{{ site.entity-stack.websites }}",{% endif %}
         "{{ site.entity-stack.main }}"
     ]
   
