@@ -52,7 +52,7 @@ type:
 
 entity-stack:
 # "sameAs": [
-"site1",
+site1: uhi
 site2
 site3
 site4
