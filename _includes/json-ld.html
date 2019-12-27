@@ -12,7 +12,7 @@
 {
   "@context": "http://schema.org",
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
-  "name": "{{ site.brand }}",
+  "name": "{{ site.name }}",
   "url": "{{ site.url }}"{% if site.entity-stack.a contains 'https://' %}{% unless site.entity-stack.a contains 'e.g.' %},
         
         "sameAs": [
@@ -42,7 +42,7 @@
   "url": "{{ site.url }}",
   "publisher": {
     "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
-    "name": "{{ site.brand }}",
+    "name": "{{ site.name }}",
     "logo": {
       "@type": "ImageObject",
       "url": "{{ site.avatar }}",
