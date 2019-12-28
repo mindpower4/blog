@@ -7,13 +7,13 @@
   "logo": "{{ site.logo }}"
 }
 
-,
+{% if site.entity-stack.a contains 'https://' and site.name != blank %}{% unless site.entity-stack.a contains 'e.g.' %},
 
 {
   "@context": "http://schema.org",
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
   "name": "{{ site.name }}",
-  "url": "{{ site.url }}"{% if site.entity-stack.a contains 'https://' %}{% unless site.entity-stack.a contains 'e.g.' %},
+  "url": "{{ site.url }}",
         
         "sameAs": [
         {% if site.entity-stack.z contains 'https://' %}
@@ -45,13 +45,11 @@
         {{ site.entity-stack.a | append: '"' | prepend: '"' }}
         
     ]
-  {% endunless %}{% endif %}
-}
-
-,
-          
-      
   
+}
+{% endunless %}{% endif %}
+,
+
 {
   "@context": "http://schema.org",
   "@type": "WebSite",
