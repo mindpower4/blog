@@ -51,8 +51,8 @@
   "@context": "http://schema.org",
   "@type": "{% unless page.id != 'Home' %}WebSite{% else %}Article{% endunless %}",{% if page.layout == 'post' %}
   "dateModified": "{% if page.modified %}{{ page.modified }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
-  "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",{% endif %}
-  "headline": "{{ page.h1 }}",
+  "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
+  "headline": "{{ page.h1 }}",{% endif %}
   "url": "{{ site.url }}",
   "publisher": {
     "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
