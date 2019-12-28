@@ -58,14 +58,14 @@ entity-stack: # "sameAs": [
   a: https://twitter.com/bestchinavpn
 # THE STACK
   b: Website_1/brand-name
-  c: https://www.youtube.com/brand-name
+  c: Website_2/brand-name
   d: Website_3/brand-name
-  e: https://www.instagram.com/brand-name
+  e: Website_4/brand-name
   f: Website_5/brand-name
   g: Website_6/brand-name
-  h: https://www.linkedin.com/brand-name
+  h: Website_7/brand-name
   i: Website_8/brand-name
-  j: https://www.facebook.com/brand-name
+  j: Website_9/brand-name
 # ]
 
 # YOU CAN ADD UP TO 26 PROFILES BY EXPANDING THE ALPHABETH LISTED ABOVE! e.g.
