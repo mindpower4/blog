@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.h1 }}</h1>
+  <h1>{% unless page.h1 %}{{ page.title }}{% else %}{{ page.h1 }}{% endunless %}</h1>
   <div class="entry">
     {{ content }}
   </div>
