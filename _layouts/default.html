@@ -16,7 +16,6 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | prepend: 'Feed | ' }}" href="{{ site.baseurl }}/feed.xml">
 
-        
         {% unless site.name == blank %}{% if site.logo contains 'https://' and site.url contains 'https://' %}
         {% include json-ld.html %}{% endif %}{% endunless %}       
         
