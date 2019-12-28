@@ -60,7 +60,7 @@
       "height": 0,
       "width": 0
     }
-  }{% endunless %}{% endif %}{% if site.SearchAction %},
+  }{% endunless %}{% elsif site.SearchAction %},
   "name": "",
   "potentialAction": {
     "@type": "SearchAction",
@@ -68,6 +68,6 @@
     "query-input": ""
   }
 }
-    {% endif %}
+  
       ]
-    </script>
+    </script>{% endif %}
