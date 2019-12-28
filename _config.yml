@@ -42,7 +42,7 @@ ts: bestchinavpn
 tc_img: https://yourimgurl.com/image.png
 
 # Structured Data & JSON-LD / schema.org
-SearchAction: 
+searchaction: 
 # Schema Type e.g. 'CreativeWork' or 'LocalBusiness',
 # for default; 'Organization' leave empty.
 # Visit schema.org/Thing#subtypes for more info.
