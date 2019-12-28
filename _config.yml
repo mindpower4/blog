@@ -12,6 +12,7 @@ description: Homepage Example Description
 
 
 # Search | Set "false" or leave empty for Indexing
+# Consider setting up an Entity Stack first..
 # Long Term Noindex Will Lead To Nofollow On Links
 
 noindex: true
