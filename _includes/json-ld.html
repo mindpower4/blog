@@ -1,3 +1,4 @@
+{% if site.entity-stack.a contains 'https://' and site.name != blank %}{% unless site.entity-stack.a contains 'e.g.' %}
 <script type="application/ld+json">
       [ 
 {
@@ -6,9 +7,7 @@
   "url": "{% if base.url %}{{ append: '{{ base.url }}' }}{% else %}{{ site.url }}{% endif %}",
   "logo": "{{ site.logo }}"
 }
-
-{% if site.entity-stack.a contains 'https://' and site.name != blank %}{% unless site.entity-stack.a contains 'e.g.' %},
-
+,
 {
   "@context": "http://schema.org",
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
@@ -46,13 +45,11 @@
         
     ]
   
-}
-{% endunless %}{% endif %}
+}{% if page.id == 'Home' or page.post %}
 ,
-
 {
   "@context": "http://schema.org",
-  "@type": "{% unless page.id == 'Home' %}Article{% elsif page.id == 'Home' %}WebSite{% endunless %}",
+  "@type": "{% unless page.id != 'Home' %}WebSite{% elsif page.post %}Article{% endunless %}",
   "url": "{{ site.url }}",
   "publisher": {
     "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
@@ -63,7 +60,7 @@
       "height": 0,
       "width": 0
     }
-  },
+  }{% endunless %}{% endif %},
   "name": "",
   "potentialAction": {
     "@type": "SearchAction",
@@ -72,6 +69,5 @@
   }
 }
     
-        
       ]
     </script>
