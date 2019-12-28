@@ -71,9 +71,9 @@
     
     
       
-      "url": "",
-      "height": 1361,
-      "width": 2419
+      "url": "{{ page.image }}",
+      "height": {{ page.img-height }},
+      "width": {{ page.img-width }}
     
   },{% endif %}
   "publisher": {
@@ -82,8 +82,8 @@
     "logo": {
       "@type": "ImageObject",
       "url": "{{ site.logo }}",
-      "height": {{ site.logo.height }},
-      "width": {{ site.logo.width }}
+      "height": {{ site.go-height }},
+      "width": {{ site.go-width }}
     }
   }{% endif %}
   
