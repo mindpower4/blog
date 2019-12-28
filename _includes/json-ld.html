@@ -1,13 +1,14 @@
 {% if site.entity-stack.a contains 'https://' and site.name != blank %}{% unless site.entity-stack.a contains 'e.g.' %}
 <script type="application/ld+json">
       [ 
+
+
 {
   "@context": "http://schema.org",
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
   "url": "{% if base.url %}{{ append: '{{ base.url }}' }}{% else %}{{ site.url }}{% endif %}",
   "logo": "{{ site.logo }}"
-}
-,
+},
 {
   "@context": "http://schema.org",
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
@@ -45,8 +46,7 @@
         
     ]
   
-}{% if page.id == 'Home' or page.post %}
-,
+}{% if page.id == 'Home' or page.post %},
 {
   "@context": "http://schema.org",
   "@type": "{% unless page.id != 'Home' %}WebSite{% elsif page.post %}Article{% endunless %}",
