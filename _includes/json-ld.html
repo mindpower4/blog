@@ -45,7 +45,7 @@
         
     ]
   
-}{% unless page.id != 'Home' or page.post %}
+}{% if page.id == 'Home' or page.post %}
 ,
 {
   "@context": "http://schema.org",
@@ -60,14 +60,16 @@
       "height": 0,
       "width": 0
     }
-  }{% endunless %}{% if site.SearchAction != blank %},
+  }{% endif %}
+  
+  {% if site.SearchAction != blank %},
   "name": "",
   "potentialAction": {
     "@type": "SearchAction",
     "target": "",
     "query-input": ""
   }
-}
+}{% endif %}
   
       ]
-    </script>{% endif %}{% endif %}
+    </script>{% endunless %}{% endif %}
