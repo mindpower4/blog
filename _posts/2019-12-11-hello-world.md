@@ -1,9 +1,8 @@
 ---
 layout: post
-title: You're up and running! titlee
+title: You're up and running! title
+h1: my h1 tag
 ---
-
-# retzghjk
 
 Next you can update your logo and other options using the _config.yml file in the root of your repository (shown below).
 
