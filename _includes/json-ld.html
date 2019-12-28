@@ -52,7 +52,7 @@
 
 {
   "@context": "http://schema.org",
-  "@type": "WebSite",
+  "@type": "{% unless page.id == 'Home' %}Article{% elsif page.id == 'Home' %}WebSite{% endunless %}",
   "url": "{{ site.url }}",
   "publisher": {
     "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
