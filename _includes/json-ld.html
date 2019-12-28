@@ -13,7 +13,7 @@
   "@context": "http://schema.org",
   "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
   "name": "{{ site.name }}",
-  "url": "{{ site.url }}",
+  "url": "{% unless page.layout == 'Home' %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endunless %}",
         
         "sameAs": [
         {% if site.entity-stack.z contains 'https://' %}
