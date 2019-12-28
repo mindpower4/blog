@@ -58,7 +58,7 @@ name: BestChinaVPN
 
 entity-stack: # "sameAs": [
 # DEFAULT PROFILE IS REQUIRED
-  a: e.g. https://twitter.com/branding
+  a: https://twitter.com/branding
 # THE STACK
   b: Website_1/brand-name
   c: Website_2/brand-name
@@ -121,7 +121,7 @@ baseurl: ""
 permalink: /:title/
 
 # The release of BeastSEO that you're using
-version: v1.0.5
+version: v1.0.9
 
 # Jekyll Kramdown
 kramdown:
