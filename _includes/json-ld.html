@@ -46,10 +46,10 @@
         
     ]
   
-}{% if page.id == 'Home' or page.posts %},
+}{% if page.id == 'Home' or page.layout == 'post' %},
 {
   "@context": "http://schema.org",
-  "@type": "{% unless page.id != 'Home' %}WebSite{% elsif page.posts %}Article{% endunless %}",
+  "@type": "{% unless page.id != 'Home' %}WebSite{% else %}Article{% endunless %}",
   "url": "{{ site.url }}",
   "publisher": {
     "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
