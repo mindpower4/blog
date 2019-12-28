@@ -51,7 +51,7 @@
   "@context": "http://schema.org",
   "@type": "{% unless page.id != 'Home' %}WebSite{% else %}Article{% endunless %}",{% if page.layout == 'post' %}
   "dateModified": "{% if page.modified %}{{ page.modified }}{% else %}{{ page.date }}{% endif %}",
-  "datePublished": "{{ page.date }}",{% endif %}
+  "datePublished": "{{ include.date | | date: '%Y-%m-%d' }}",{% endif %}
   "url": "{{ site.url }}",
   "publisher": {
     "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
