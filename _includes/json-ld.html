@@ -54,8 +54,28 @@
   "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
   "headline": "{{ page.h1 }}",
   "description": "{{ page.description }}",
-  "mainEntityOfPage": "{{ site.url }}{{ page.url }}",{% endif %}
+  "mainEntityOfPage": "{{ site.url }}{{ page.url }}",{% endif %}{% unless page.layout == 'post' %}
   "url": "{{ site.url }}",
+  "author": [
+       
+           
+                {
+                  "@type": "Person",
+                  "name": "Natalie Zmuda"
+                }
+           
+       
+    ],
+  "image": {
+    "@type": "ImageObject",
+    
+    
+      
+      "url": "https://storage.googleapis.com/twg-content/images/1708_thumbnail_Year-in-Search.width-800.jpg",
+      "height": 1361,
+      "width": 2419
+    
+  },{% endunless %}
   "publisher": {
     "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
     "name": "{{ site.name }}",
