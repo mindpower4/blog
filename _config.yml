@@ -55,7 +55,7 @@ name: BestChinaVPN
 
 entity-stack: # "sameAs": [
 # DEFAULT PROFILE IS REQUIRED
-  a: https://twitter.com/bestchinavpn
+  a: e.g. https://twitter.com/branding
 # THE STACK
   b: Website_1/brand-name
   c: Website_2/brand-name
