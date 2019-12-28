@@ -54,7 +54,7 @@
   "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
   "headline": "{{ page.h1 }}",
   "description": "{{ page.description }}",
-  "mainEntityOfPage": "{{ site.url }}/{{ page.url }}",{% endif %}
+  "mainEntityOfPage": "{{ site.url }}{{ page.url }}",{% endif %}
   "url": "{{ site.url }}",
   "publisher": {
     "@type": "{% unless site.type %}Organization{% else %}{{ site.type }}{% endunless %}",
