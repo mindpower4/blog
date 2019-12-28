@@ -45,7 +45,7 @@
         
     ]
   
-}{% elsif page.id == 'Home' or page.post %}
+}{% endif %}{% unless site.entity-stack.a contains 'e.g.' %}{% if site.entity-stack.a contains 'https://' and site.name != blank %}
 ,
 {
   "@context": "http://schema.org",
