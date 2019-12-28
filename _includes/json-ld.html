@@ -16,7 +16,23 @@
   "url": "{{ site.url }}"{% if site.entity-stack.a contains 'https://' %}{% unless site.entity-stack.a contains 'e.g.' %},
         
         "sameAs": [
-        {% if site.entity-stack.j contains 'https://' %}
+        {% if site.entity-stack.z contains 'https://' %}
+        {{ site.entity-stack.z | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.y contains 'https://' %}
+        {{ site.entity-stack.y | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.x contains 'https://' %}
+        {{ site.entity-stack.x | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.w contains 'https://' %}
+        {{ site.entity-stack.w | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.v contains 'https://' %}
+        {{ site.entity-stack.v | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.u contains 'https://' %}
+        {{ site.entity-stack.u | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.t contains 'https://' %}
+        {{ site.entity-stack.t | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.s contains 'https://' %}
+        {{ site.entity-stack.s | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.r contains 'https://' %}
+        {{ site.entity-stack.r | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.q contains 'https://' %}
+        {{ site.entity-stack.q | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.p contains 'https://' %}
+        {{ site.entity-stack.p | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.o contains 'https://' %}
+        {{ site.entity-stack.o | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.n contains 'https://' %}
+        {{ site.entity-stack.n | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.m contains 'https://' %}
+        {{ site.entity-stack.m | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.l contains 'https://' %}
+        {{ site.entity-stack.l | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.k contains 'https://' %}
+        {{ site.entity-stack.k | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.j contains 'https://' %}
         {{ site.entity-stack.j | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.i contains 'https://' %}
         {{ site.entity-stack.i | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.h contains 'https://' %}
         {{ site.entity-stack.h | append: '",' | prepend: '"' }}{% endif %}{% if site.entity-stack.g contains 'https://' %}
