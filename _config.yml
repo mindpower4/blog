@@ -45,10 +45,11 @@ tc_img: https://yourimgurl.com/image.png
 # Schema Type e.g. 'CreativeWork' or 'LocalBusiness',
 # visit schema.org/Thing#subtypes for more.
 type: 
+
+# Brand Establishment & Entity Stacking
+
 # Enter your Brand Name, e.g. 'BestBuy' for markup.
 name: BestChinaVPN
-
-# Entity Stacking - Branding!
 
 # A powerful method to leverage Schema and establish
 # an Entity to gain Trust and Authority in Google.
