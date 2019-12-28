@@ -3,6 +3,7 @@ layout: post
 title: You're up and running! title
 h1: my post h1 tag
 description: my post description
+author: Greg Morrison
 ---
 
 Next you can update your logo and other options using the _config.yml file in the root of your repository (shown below).
