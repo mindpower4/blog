@@ -65,8 +65,11 @@ entity-stack: # "sameAs": [
   g: Website_6/brand-name
   h: https://www.linkedin.com/brand-name
   i: Website_8/brand-name
-  j: Website_9/brand-name
+  j: https://www.facebook.com/brand-name
 # ]
+
+# YOU CAN ADD UP TO 26 PROFILES BY EXPANDING THE ALPHABETH LISTED ABOVE! e.g.
+# k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z.
 
 # URL of your logo
 logo: https://raw.githubusercontent.com/mindpower4/blog/master/images/logo.png
