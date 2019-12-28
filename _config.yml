@@ -44,8 +44,8 @@ tc_img: https://yourimgurl.com/image.png
 # Structured Data & JSON-LD / schema.org
 
 # Schema Type e.g. 'CreativeWork' or 'LocalBusiness',
-# for 'Organization' leave empty.
-# Visit schema.org/Thing#subtypes for more.
+# for default; 'Organization' leave empty.
+# Visit schema.org/Thing#subtypes for more info.
 type: 
 
 # Brand Establishment & Entity Stacking
