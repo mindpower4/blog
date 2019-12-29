@@ -8,7 +8,7 @@ permalink: /reviews/
   {% for post in site.posts %}
     <article class="post">
 
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.h1 }}</a></h4>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.h1 }}</a></h3>
 
       <div class="entry">
         {{ post.excerpt }}
