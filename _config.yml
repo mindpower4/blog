@@ -42,7 +42,7 @@ ts: bestchinavpn
 tc_img: https://yourimgurl.com/image.png
 
 # Structured Data & JSON-LD / schema.org
-searchaction: 
+ 
 # Schema Type e.g. 'CreativeWork' or 'LocalBusiness',
 # for default; 'Organization' leave empty.
 # Visit schema.org/Thing#subtypes for more info.
@@ -58,7 +58,7 @@ name: BestChinaVPN
 
 entity-stack: # "sameAs": [
 # DEFAULT PROFILE IS REQUIRED
-  a: https://twitter.com/branding
+  a: https://twitter.com/bestchinavpn
 # THE STACK
   b: Website_1/brand-name
   c: Website_2/brand-name
@@ -74,7 +74,7 @@ entity-stack: # "sameAs": [
 # YOU CAN ADD UP TO 26 PROFILES BY EXPANDING THE ALPHABETH LISTED ABOVE! e.g.
 # k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z.
 
-# URL of your logo
+# Specify the 'https' URL of your logo & correct dimensions for schema.org
 logo: https://raw.githubusercontent.com/mindpower4/blog/master/images/logo.png
 go-height: 128
 go-width: 128
@@ -123,7 +123,7 @@ baseurl: ""
 permalink: /:title/
 
 # The release of BeastSEO that you're using
-version: v1.0.9
+version: v1.1.0
 
 # Jekyll Kramdown
 kramdown:
