@@ -76,8 +76,8 @@ entity-stack: # "sameAs": [
 
 # URL of your logo
 logo: https://raw.githubusercontent.com/mindpower4/blog/master/images/logo.png
-go-height: 899
-go-width: 599
+go-height: 128
+go-width: 128
 
 #
 # Flags below are optional
