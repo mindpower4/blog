@@ -3,7 +3,7 @@ layout: default
 id: Home
 ---
 
-<h1>What is the Best VPN Service for China?</h1>
+<h1>What is the Best VPN Service for China Nowadays?</h1>
 
 <p>Generally speaking, ExpressVPN has established itself as one of the leading virtual private networks. 
 They are also the most trusted and reliable VPN i have come across and the network speed is similar to your default connection.
