@@ -9,7 +9,7 @@ id: Home
 
 <p>Commercial vendors utilize the latter to make them accessible to their customers. Today there are over 300 companies that supply people with services from around the world.</p>
 
-<p>VPNs make it possible to cross national boundaries and access services that would otherwise be unaccesable. Let’s say you’re living in another country and trying to access a streaming service such as Netflix, you will be able to use their service to view movies within the comfort of your home.</p>
+<p>VPNs make it possible to cross national boundaries and access services that would otherwise be unaccesable. Let’s say you’re living in another country and trying to access a streaming service such as Netflix, you will be able to use their services to view movies within the comfort of your home.</p>
 
 <h2>Here are some things to keep in mind when choosing your provider:</h2>
 
