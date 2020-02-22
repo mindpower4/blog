@@ -9,7 +9,7 @@ id: Home
 
 <p>Today there are over 300 companies that supply people with services from around the world. VPNs make it possible to cross national boundaries and access restricted content that would otherwise be unusable. Let’s say you’re living in another country and trying to use a streaming service such as Netflix, you are able to bypass restrictions and view their movies within the comfort of your home.</p>
 
-<h2>Here are some things to keep in mind when choosing your provider:</h2>
+<h2>Things to keep in mind when choosing your provider:</h2>
 
 <p>Their software should work on multiple devices, which means that they can support anything that runs Windows, Apple, Android or iOS operating systems. You will also want to check how many devices your VPN service can connect at once. You will also need to determine if your system is secure once the VPN is active. 
 
