@@ -66,7 +66,7 @@ Below is a small listing of vendors on the market that offer obfuscation:
 <strong>3. VyprVPN:</strong> Utilizing the Chameleon protocol, this VPN vendor helps hide your internet traffic in a fast and reliable manner. <p>
 
 
-<h2>The Great Firewall of China (GFW)</h2>
+<h2>The Great Firewall of China</h2>
 
 <p>The GFW (also known as the Golden Shield) is a technological initiative by the People’s Republic of China (PRC) to regulate internet traffic within the boundaries of China as well as traffic outside of the country’s boundaries and serves as an analogy to the Great Wall. While cyber laws have been prevalent since the 1970s, China did not have any form of legislation pertaining to internet regulations until 1997. The GFW initiative utilizes different methods to block traffic and is heavily regulated under the control of the Communist party. 
 
