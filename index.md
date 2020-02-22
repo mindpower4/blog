@@ -11,7 +11,7 @@ id: Home
 
 <h2>Things to keep in mind when choosing your provider:</h2>
 
-<p>Their software should work on multiple devices, which means that they can support anything that runs Windows, Apple, Android or iOS operating systems. You will also want to check how many devices your VPN service can connect at once. You will also need to determine if your system is secure once the VPN is active. 
+<p>Their software should work on multiple devices, which means that they can support anything that runs Windows, Apple, Android or iOS operating systems. You will also want to check how many devices can be used simulatously and if your system is secure once connected. 
 
 The user interface is another important factor to consider when picking your VPN, because nobody likes a clunky non-user friendly GUI that is difficult to navigate through. 
 
