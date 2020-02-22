@@ -7,11 +7,11 @@ id: Home
 
 <p>When your computer connects to the internet, its public IP address is displayed openly. Virtual private networks provide data security by creating encrypted tunnels to shield your IP information. This is accomplished through the use of a government encryption device or through a VPN server.
 
-Commercial vendors utilize the latter to make VPNs possible for their customers. Today there are over 300 companies that supply services to customers around the world.
+Commercial vendors utilize the latter to make them accessible to their customers. Today there are over 300 companies that supply people with services from around the world.
 
-possible to cross national boundaries and access services that would otherwise be unaccesable. In this context, let’s say you’re living in another country and you’re trying to access a streaming service such as Netflix, you will be able to use a VPN service to view movies within the comfort of your home.</p>
+VPNs make it possible to cross national boundaries and access services that would otherwise be unaccesable. In this context, let’s say you’re living in another country and you’re trying to access a streaming service such as Netflix, you will be able to use a VPN service to view movies within the comfort of your home.</p>
 
-<h2>Here are some things to keep in mind when looking for a VPN: </h2>
+<h2>Here are some things to keep in mind when choosing your provider:</h2>
 
 <p>VPNs should be able to service multiple devices, which means that they can support anything that runs  Windows, Apple, Android or iOS operating systems. You will also want to check how many devices your VPN service can connect at once. You will also need to determine if your system is secure once the VPN is active. 
 
