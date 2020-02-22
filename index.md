@@ -5,17 +5,17 @@ id: Home
 
 <h1>What's the Best VPN Service for China Nowadays?</h1>
 
-<p>When your computer connects to the internet, its public IP address is displayed openly. Virtual private networks provide data security by creating encrypted tunnels to shield your IP information. This is accomplished through the use of a government encryption device or through a VPN server.
+<p>When your computer connects to the internet, its public IP address is displayed openly. Virtual private networks provide data security by creating encrypted tunnels to shield your IP information. This is accomplished through the use of a government encryption device or through a VPN server.</p>
 
-Commercial vendors utilize the latter to make them accessible to their customers. Today there are over 300 companies that supply people with services from around the world.
+<p>Commercial vendors utilize the latter to make them accessible to their customers. Today there are over 300 companies that supply people with services from around the world.</p>
 
-VPNs make it possible to cross national boundaries and access services that would otherwise be unaccesable. In this context, let’s say you’re living in another country and you’re trying to access a streaming service such as Netflix, you will be able to use a VPN service to view movies within the comfort of your home.</p>
+<p>VPNs make it possible to cross national boundaries and access services that would otherwise be unaccesable. In this context, let’s say you’re living in another country and you’re trying to access a streaming service such as Netflix, you will be able to use a VPN service to view movies within the comfort of your home.</p>
 
 <h2>Here are some things to keep in mind when choosing your provider:</h2>
 
-<p>VPNs should be able to service multiple devices, which means that they can support anything that runs  Windows, Apple, Android or iOS operating systems. You will also want to check how many devices your VPN service can connect at once. You will also need to determine if your system is secure once the VPN is active. 
+<p>Their software should work on multiple devices, which means that they can support anything that runs Windows, Apple, Android or iOS operating systems. You will also want to check how many devices your VPN service can connect at once. You will also need to determine if your system is secure once the VPN is active. 
 
-The user interface is another important factor to consider when choosing the right VPN. Nobody likes a clunky non-user friendly GUI that is difficult to navigate through. 
+The user interface is another important factor to consider when picking your VPN, because nobody likes a clunky non-user friendly GUI that is difficult to navigate through. 
 
 VPNs also have numerous servers around the world, so if you plan to move, you will want a service that provides as much coverage as possible to ensure complete privacy and security. Major vendors such as ExpressVPN and NordVPN have servers that are distributed worldwide to service their client base.
 
