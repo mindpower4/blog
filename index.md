@@ -5,11 +5,11 @@ id: Home
 
 <h1>What's the Best VPN Service for China Nowadays?</h1>
 
-<p>When your computer connects to the internet, its public IP address is displayed openly. Virtual private networks (VPNs) provide data security by creating encrypted tunnels to shield your IP information. This is accomplished through the use of a government encryption device or through a VPN server.
+<p>When your computer connects to the internet, its public IP address is displayed openly. Virtual private networks provide data security by creating encrypted tunnels to shield your IP information. This is accomplished through the use of a government encryption device or through a VPN server.
 
-Commercial vendors utilize the latter to make VPNs possible for their customers. Today there are 300 VPN companies that supply services to customers around the world.
+Commercial vendors utilize the latter to make VPNs possible for their customers. Today there are over 300 companies that supply services to customers around the world.
 
-VPNs make it possible to cross national boundaries and access services that would otherwise be unaccesable. In this context, let’s say you’re living in another country, and you’re trying to access a streaming service such as Netflix, you will be able to use a VPN service to view movies within the comfort of your home.</p>
+possible to cross national boundaries and access services that would otherwise be unaccesable. In this context, let’s say you’re living in another country and you’re trying to access a streaming service such as Netflix, you will be able to use a VPN service to view movies within the comfort of your home.</p>
 
 <h2>Here are some things to keep in mind when looking for a VPN: </h2>
 
