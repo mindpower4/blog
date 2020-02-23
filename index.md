@@ -81,10 +81,11 @@ In addition to the Great Firewall, the PRC has access to another internet-based 
 
 While blockade makes it difficult to access information outside of China, Chinese citizens are still able to access blocked websites by using VPN services. The risk of arrest is real, as people have been arrested for illegally distributing VPN software that tunnels through the firewall. This form of oppressive control is all the more reason why people should use a VPN. 
 
-If you intend to go to China, there are some things you need to be aware of before you travel there: 
 
--	While VPNs can be used, it would be advisable for you to download the service beforehand. VPNs are a means of being able to access information securely and anonymously without getting caught.  
--	Figure out which VPN you want to use first. The more servers that it has, the better.
+Here are some things you need to be aware of, in case you intend traveling to china:
+
+-	Make sure to download the software beforehand so that you don't run into connection issues.
+-	Check out our in-depth reviews to figure out which one you want to use.
 -	Ensure the service offers robust security, even if the connection drops. If even a slight trace of your IP information is given away, that is a bad sign. Obfuscation is a definitive must in this regard. </p>
 
 <h2>Final Thoughts</h2>
