@@ -19,7 +19,7 @@ It is essential for a provider to have numerous servers around the world. So, if
 
 Ideally, your prospective VPN should offer a reliable customer service desk to help troubleshoot your program in case you run into any problems. 
 
-When you figured out which one you want to buy, figure out a payment plan based on how much you can afford. VPNs are subscription-driven and can be expensive if you’re only doing monthly plans. Some vendors provide long-term subscriptions via semi-yearly to yearly discounts. 
+When you decided which one you want to buy, figure out a payment plan based on your needs. Most virtual private network providers are subscription-driven and usually more expensive if you’re doing monthly plans. Yet, some vendors provide long-term subscriptions via semi-yearly to yearly discounts. 
 
 If you’re not satisfied with the service you’re receiving from your VPN, make sure that the vendor offers a money-back guarantee. The end state is to choose one that works best for your needs. </p>
 
