@@ -42,20 +42,20 @@ It may be tempting to not purchase a VPN service as an attempt to cut costs. Thi
 There is no question that when you use a VPN service, you will get your money’s worth. The level of protection it provides for your company as well as your own personal data is invaluable. </p>
 
 
-<h2>What is VPN obfuscation?</h2>
+<h2>What is Traffic obfuscation?</h2>
 
 <p>VPN obfuscation is a fancy term for shielding data that goes from one point to another from prying eyes. This method helps to overcome government-placed blocks meant to censor online content.
 Synonymous terms that come to mind in relation to obfuscation are words like ‘stealth mode’, ‘stealth VPN’ or ‘cloaking technology’. 
 
 These are not mere science fiction definitions, these are words that provide context for your internet traffic. Data that transits between destinations are shielded as regular HTTPS traffic, where government and internet service providers will be unable to distinguish between legitimate traffic versus VPN traffic.
 
-Obfuscation removes the metadata tied to your VPN traffic.. VPN obfuscation works by double encryption, where data is sent through two servers instead of one. The purpose of the secondary server is to misdirect unwanted visitors from intercepting or viewing your data. 
+Obfuscation removes the metadata tied to your traffic, it works by double encryption and the data is sent through two servers instead of one. The purpose of the secondary server is to misdirect unwanted visitors from intercepting or viewing your data. 
 
 By nature VPNs obscure traffic from outside entities to prevent them from peering into your personal data. This includes any form of personal identifying information (PII) such as your social security number, internet and shopping history. 
 
-Obfuscated servers can bypass restrictions such as firewalls, and can be utilized in countries that have restricted internet access. 
+Those servers can bypass restrictions such as firewalls and are heavily utilized in countries that have restricted internet access. 
 
-Your data also isn’t capped when VPN obfuscation comes into play. ISPs tend to put a cap on data rates as a quality control measure whenever they see you’re visiting specific websites, streaming videos or downloading content into your device. They can also indiscriminately throttle VPN traffic as a means of maintaining the cap.  
+Your data also isn’t capped when virtual private network obfuscation comes into play. ISPs tend to put a cap on data rates as a quality control measure whenever they see you’re visiting specific websites, streaming videos or downloading content into your device. They can also indiscriminately throttle VPN traffic as a means of maintaining the cap.  
 
 Below is a small listing of vendors on the market that offer obfuscation: 
 
