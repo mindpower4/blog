@@ -15,11 +15,11 @@ id: Home
 
 The user interface is another important factor to consider when picking your provider, because nobody likes a clunky non-user friendly GUI that is difficult to navigate through. 
 
-VPNs also have numerous servers around the world, so if you plan to move, you will want a service that provides as much coverage as possible to ensure complete privacy and security. Major vendors such as ExpressVPN and NordVPN have servers that are distributed worldwide to service their client base.
+It is essential for a provider to have numerous servers around the world. So, if you plan to move, you will want a service that provides as much coverage as possible to ensure complete privacy and security. Major vendors such as ExpressVPN have setup servers that are distributed worldwide to serve their clients.
 
 Ideally, your prospective VPN should offer a reliable customer service desk to help troubleshoot your program in case you run into any problems. 
 
-When you figured out which VPN you want to buy, figure out a payment plan based on how much you can afford. VPNs are subscription-driven and can be expensive if you’re only doing monthly plans. Some vendors provide long-term subscriptions via semi-yearly to yearly discounts. 
+When you figured out which one you want to buy, figure out a payment plan based on how much you can afford. VPNs are subscription-driven and can be expensive if you’re only doing monthly plans. Some vendors provide long-term subscriptions via semi-yearly to yearly discounts. 
 
 If you’re not satisfied with the service you’re receiving from your VPN, make sure that the vendor offers a money-back guarantee. The end state is to choose one that works best for your needs. </p>
 
