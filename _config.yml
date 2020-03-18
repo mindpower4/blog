@@ -60,7 +60,7 @@ entity-stack: # "sameAs": [
 # DEFAULT PROFILE IS REQUIRED
   a: https://twitter.com/bestchinavpn
 # THE STACK
-  b: Website_1/brand-name
+  b: https://mastodon.social/@bestchinavpn
   c: Website_2/brand-name
   d: Website_3/brand-name
   e: Website_4/brand-name
